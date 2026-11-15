@@ -1,0 +1,9 @@
+spec_id,degree,scaling,pruning,description_zh,description_en,diagnostic_eligible_k_10pct,profile_separated_k_10pct,candidate_fit_strategy
+level_d1_pruning,1,0,TRUE,d=1，允许自动删减非显著最高阶时间项,Degree 1 with automatic pruning,"2,3,4,5,6","2,3,4,5,6",Single fit per K/specification; K=1 is the no-group benchmark; all active models use scaling=0
+level_d1_no_pruning,1,0,FALSE,d=1，保留全部 0-1 阶时间项,Degree 1 without automatic pruning,"2,3,4,5,6","2,3,4,5,6",Single fit per K/specification; K=1 is the no-group benchmark; all active models use scaling=0
+level_d2_pruning,2,0,TRUE,d=2，允许自动删减非显著最高阶时间项,Degree 2 with automatic pruning,"2,3,4,5,6","2,3,4,5,6",Single fit per K/specification; K=1 is the no-group benchmark; all active models use scaling=0
+level_d2_no_pruning,2,0,FALSE,d=2，保留全部 0-2 阶时间项,Degree 2 without automatic pruning,"2,3,4,5,6","2,3,4,5,6",Single fit per K/specification; K=1 is the no-group benchmark; all active models use scaling=0
+level_d3_pruning,3,0,TRUE,d=3，允许自动删减非显著最高阶时间项,Degree 3 with automatic pruning,"2,3,4,5,6","2,3,4,5,6",Single fit per K/specification; K=1 is the no-group benchmark; all active models use scaling=0
+level_d3_no_pruning,3,0,FALSE,d=3，保留全部 0-3 阶时间项,Degree 3 without automatic pruning,"2,3,4,5,6","2,3,4,5,6",Single fit per K/specification; K=1 is the no-group benchmark; all active models use scaling=0
+level_d4_pruning,4,0,TRUE,d=4，允许自动删减非显著最高阶时间项,Degree 4 with automatic pruning,"2,3,4,5,6","2,3,4,5,6",Single fit per K/specification; K=1 is the no-group benchmark; all active models use scaling=0
+level_d4_no_pruning,4,0,FALSE,d=4，保留全部 0-4 阶时间项,Degree 4 without automatic pruning,"2,3,4,5,6","2,3,4,5,6",Single fit per K/specification; K=1 is the no-group benchmark; all active models use scaling=0

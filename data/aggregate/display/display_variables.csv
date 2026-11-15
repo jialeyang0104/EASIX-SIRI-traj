@@ -1,0 +1,43 @@
+variable,label,unit,system,log2
+easix_day,EASIX,index,Index components,True
+siri_day,SIRI,index,Index components,True
+alt_mean,ALT,U/L,Hepatic,True
+ast_mean,AST,U/L,Hepatic,True
+alp_mean,ALP,U/L,Hepatic,True
+bilirubin_mean,Total bilirubin,mg/dL,Hepatic,True
+albumin_mean,Albumin,g/dL,Hepatic,True
+creatinine_mean,Creatinine,mg/dL,Renal,True
+bun_mean,BUN,mg/dL,Renal,True
+ldh_mean,LDH,U/L,Index components,True
+wbc_mean,WBC,10^9/L,Haematology,True
+platelet_mean,Platelets,10^9/L,Haematology,True
+hemoglobin_mean,Haemoglobin,g/dL,Haematology,True
+hematocrit_mean,Haematocrit,%,Haematology,True
+rbc_mean,RBC,10^12/L,Haematology,True
+mcv_mean,MCV,fL,Haematology,True
+inr_mean,INR,ratio,Coagulation,True
+pt_mean,PT,s,Coagulation,True
+ptt_mean,aPTT,s,Coagulation,True
+sodium_mean,Sodium,mmol/L,Electrolytes,True
+potassium_mean,Potassium,mmol/L,Electrolytes,True
+chloride_mean,Chloride,mmol/L,Electrolytes,True
+bicarbonate_mean,Bicarbonate,mmol/L,Electrolytes,True
+aniongap_mean,Anion gap,mmol/L,Metabolic,True
+calcium_mean,Total calcium,mg/dL,Electrolytes,True
+magnesium_mean,Magnesium,mg/dL,Electrolytes,True
+phosphate_mean,Phosphate,mg/dL,Electrolytes,True
+glucose_mean,Glucose,mg/dL,Metabolic,True
+lactate_mean,Lactate,mmol/L,Metabolic,True
+heart_rate_mean,Heart rate,beats/min,Cardiovascular,True
+sbp_mean,SBP,mmHg,Cardiovascular,True
+dbp_mean,DBP,mmHg,Cardiovascular,True
+map_mean,MAP,mmHg,Cardiovascular,True
+resp_rate_mean,Respiratory rate,breaths/min,Respiratory,True
+temperature_mean,Temperature,degC,Metabolic,False
+spo2_mean,SpO2,%,Respiratory,False
+ph_mean,Arterial pH,pH,Respiratory,False
+pao2_mean,PaO2,mmHg,Respiratory,True
+paco2_mean,PaCO2,mmHg,Respiratory,True
+pf_ratio_mean,PaO2/FiO2,mmHg,Respiratory,True
+gcs_mean,GCS,points,Neurologic,False
+urine_hourly_mean,Urine output,mL/h,Renal,True

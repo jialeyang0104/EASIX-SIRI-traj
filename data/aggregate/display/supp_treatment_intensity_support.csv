@@ -1,0 +1,31 @@
+dataset,trajectory_class,component,n,assigned_n,uses_outcomes
+mimiciv,1,Mechanical ventilation,571,1008,False
+mimiciv,1,CRRT,5,1008,False
+mimiciv,1,NEE >0.3 µg/kg/min,128,1008,False
+mimiciv,1,Net balance >30 mL/kg,346,1008,False
+mimiciv,1,Absolute fluid cutoff used,9,1008,False
+mimiciv,2,Mechanical ventilation,601,977,False
+mimiciv,2,CRRT,62,977,False
+mimiciv,2,NEE >0.3 µg/kg/min,211,977,False
+mimiciv,2,Net balance >30 mL/kg,414,977,False
+mimiciv,2,Absolute fluid cutoff used,4,977,False
+mimiciv,3,Mechanical ventilation,416,713,False
+mimiciv,3,CRRT,72,713,False
+mimiciv,3,NEE >0.3 µg/kg/min,192,713,False
+mimiciv,3,Net balance >30 mL/kg,357,713,False
+mimiciv,3,Absolute fluid cutoff used,4,713,False
+mimiciii,1,Mechanical ventilation,311,520,False
+mimiciii,1,CRRT,0,520,False
+mimiciii,1,NEE >0.3 µg/kg/min,64,520,False
+mimiciii,1,Net balance >30 mL/kg,283,520,False
+mimiciii,1,Absolute fluid cutoff used,1,520,False
+mimiciii,2,Mechanical ventilation,273,442,False
+mimiciii,2,CRRT,13,442,False
+mimiciii,2,NEE >0.3 µg/kg/min,90,442,False
+mimiciii,2,Net balance >30 mL/kg,237,442,False
+mimiciii,2,Absolute fluid cutoff used,2,442,False
+mimiciii,3,Mechanical ventilation,233,365,False
+mimiciii,3,CRRT,27,365,False
+mimiciii,3,NEE >0.3 µg/kg/min,84,365,False
+mimiciii,3,Net balance >30 mL/kg,215,365,False
+mimiciii,3,Absolute fluid cutoff used,0,365,False

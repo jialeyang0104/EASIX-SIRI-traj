@@ -1,0 +1,253 @@
+scope,state,variable,label,system,stays,observed,missing,unit,source,result_batch,paired_n,r,status,contrast
+mimiciv,1,easix_day,EASIX,Index components,1008,792,216,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2196,-0.678632265398088,estimable,class vs all other classes
+mimiciv,2,easix_day,EASIX,Index components,977,794,183,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2196,0.0558398515931367,estimable,class vs all other classes
+mimiciv,3,easix_day,EASIX,Index components,713,610,103,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2196,0.6676542129533929,estimable,class vs all other classes
+mimiciv,1,siri_day,SIRI,Index components,1008,797,211,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2145,-0.0240963144232242,estimable,class vs all other classes
+mimiciv,2,siri_day,SIRI,Index components,977,787,190,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2145,0.2205312632193463,estimable,class vs all other classes
+mimiciv,3,siri_day,SIRI,Index components,713,561,152,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2145,-0.2153561748812583,estimable,class vs all other classes
+mimiciv,1,alt_mean,ALT,Hepatic,1008,893,115,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2435,-0.21424013556651106,estimable,class vs all other classes
+mimiciv,2,alt_mean,ALT,Hepatic,977,892,85,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2435,-0.010368510207542769,estimable,class vs all other classes
+mimiciv,3,alt_mean,ALT,Hepatic,713,650,63,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2435,0.24468867250176132,estimable,class vs all other classes
+mimiciv,1,ast_mean,AST,Hepatic,1008,893,115,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2446,-0.3082082674755966,estimable,class vs all other classes
+mimiciv,2,ast_mean,AST,Hepatic,977,898,79,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2446,0.02165663411471156,estimable,class vs all other classes
+mimiciv,3,ast_mean,AST,Hepatic,713,655,58,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2446,0.3115352318150081,estimable,class vs all other classes
+mimiciv,1,alp_mean,ALP,Hepatic,1008,892,116,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2440,-0.06570895464402285,estimable,class vs all other classes
+mimiciv,2,alp_mean,ALP,Hepatic,977,894,83,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2440,0.013636208106497781,estimable,class vs all other classes
+mimiciv,3,alp_mean,ALP,Hepatic,713,654,59,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2440,0.05661023175182988,estimable,class vs all other classes
+mimiciv,1,bilirubin_mean,Total bilirubin,Hepatic,1008,890,118,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2442,-0.27628259446871434,estimable,class vs all other classes
+mimiciv,2,bilirubin_mean,Total bilirubin,Hepatic,977,897,80,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2442,0.1124117483922226,estimable,class vs all other classes
+mimiciv,3,bilirubin_mean,Total bilirubin,Hepatic,713,655,58,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2442,0.17781373745849946,estimable,class vs all other classes
+mimiciv,1,albumin_mean,Albumin,Hepatic,1008,612,396,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1742,0.06974356570352701,estimable,class vs all other classes
+mimiciv,2,albumin_mean,Albumin,Hepatic,977,669,308,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1742,0.0435789844091918,estimable,class vs all other classes
+mimiciv,3,albumin_mean,Albumin,Hepatic,713,461,252,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1742,-0.12352028244407832,estimable,class vs all other classes
+mimiciv,1,creatinine_mean,Creatinine,Renal,1008,1003,5,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2692,-0.4994928624984599,estimable,class vs all other classes
+mimiciv,2,creatinine_mean,Creatinine,Renal,977,976,1,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2692,0.2355148352969686,estimable,class vs all other classes
+mimiciv,3,creatinine_mean,Creatinine,Renal,713,713,0,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2692,0.2907151402393401,estimable,class vs all other classes
+mimiciv,1,bun_mean,BUN,Renal,1008,1002,6,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,-0.4263829534354246,estimable,class vs all other classes
+mimiciv,2,bun_mean,BUN,Renal,977,976,1,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,0.21411492994275738,estimable,class vs all other classes
+mimiciv,3,bun_mean,BUN,Renal,713,712,1,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,0.2339100198937354,estimable,class vs all other classes
+mimiciv,1,ldh_mean,LDH,Index components,1008,793,215,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2197,-0.36949301325687334,estimable,class vs all other classes
+mimiciv,2,ldh_mean,LDH,Index components,977,794,183,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2197,-0.03056158344110925,estimable,class vs all other classes
+mimiciv,3,ldh_mean,LDH,Index components,713,610,103,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2197,0.4290373671973356,estimable,class vs all other classes
+mimiciv,1,wbc_mean,WBC,Haematology,1008,1002,6,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,0.018420292026523677,estimable,class vs all other classes
+mimiciv,2,wbc_mean,WBC,Haematology,977,976,1,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,0.14452635497912147,estimable,class vs all other classes
+mimiciv,3,wbc_mean,WBC,Haematology,713,712,1,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,-0.1777024503663272,estimable,class vs all other classes
+mimiciv,1,platelet_mean,Platelets,Haematology,1008,1002,6,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,0.4461011108116165,estimable,class vs all other classes
+mimiciv,2,platelet_mean,Platelets,Haematology,977,976,1,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,0.006381377340015259,estimable,class vs all other classes
+mimiciv,3,platelet_mean,Platelets,Haematology,713,712,1,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,-0.495832632363138,estimable,class vs all other classes
+mimiciv,1,hemoglobin_mean,Haemoglobin,Haematology,1008,1001,7,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,0.15376867082268858,estimable,class vs all other classes
+mimiciv,2,hemoglobin_mean,Haemoglobin,Haematology,977,976,1,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.0025333099165063683,estimable,class vs all other classes
+mimiciv,3,hemoglobin_mean,Haemoglobin,Haematology,713,712,1,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.16571113549202893,estimable,class vs all other classes
+mimiciv,1,hematocrit_mean,Haematocrit,Haematology,1008,1002,6,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2691,0.18083473179592158,estimable,class vs all other classes
+mimiciv,2,hematocrit_mean,Haematocrit,Haematology,977,976,1,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2691,-0.003476322836261961,estimable,class vs all other classes
+mimiciv,3,hematocrit_mean,Haematocrit,Haematology,713,713,0,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2691,-0.19430738574978118,estimable,class vs all other classes
+mimiciv,1,rbc_mean,RBC,Haematology,1008,1002,6,10^12/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,0.19481373642466493,estimable,class vs all other classes
+mimiciv,2,rbc_mean,RBC,Haematology,977,976,1,10^12/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,-0.029087981906225514,estimable,class vs all other classes
+mimiciv,3,rbc_mean,RBC,Haematology,713,712,1,10^12/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,-0.18179211473163828,estimable,class vs all other classes
+mimiciv,1,mcv_mean,MCV,Haematology,1008,1002,6,fL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,-0.08406234440894833,estimable,class vs all other classes
+mimiciv,2,mcv_mean,MCV,Haematology,977,976,1,fL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,0.07099362075943892,estimable,class vs all other classes
+mimiciv,3,mcv_mean,MCV,Haematology,713,712,1,fL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2690,0.014748818729561186,estimable,class vs all other classes
+mimiciv,1,inr_mean,INR,Coagulation,1008,941,67,ratio,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2585,-0.19610271039906835,estimable,class vs all other classes
+mimiciv,2,inr_mean,INR,Coagulation,977,950,27,ratio,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2585,0.07237109093792654,estimable,class vs all other classes
+mimiciv,3,inr_mean,INR,Coagulation,713,694,19,ratio,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2585,0.13418016716178344,estimable,class vs all other classes
+mimiciv,1,pt_mean,PT,Coagulation,1008,941,67,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2585,-0.19799356924323036,estimable,class vs all other classes
+mimiciv,2,pt_mean,PT,Coagulation,977,950,27,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2585,0.07202045117183697,estimable,class vs all other classes
+mimiciv,3,pt_mean,PT,Coagulation,713,694,19,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2585,0.1366145881310643,estimable,class vs all other classes
+mimiciv,1,ptt_mean,aPTT,Coagulation,1008,928,80,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2562,-0.18358273848761097,estimable,class vs all other classes
+mimiciv,2,ptt_mean,aPTT,Coagulation,977,946,31,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2562,0.132974975373939,estimable,class vs all other classes
+mimiciv,3,ptt_mean,aPTT,Coagulation,713,688,25,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2562,0.0542953621999137,estimable,class vs all other classes
+mimiciv,1,sodium_mean,Sodium,Electrolytes,1008,1004,4,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2693,0.050403344801607255,estimable,class vs all other classes
+mimiciv,2,sodium_mean,Sodium,Electrolytes,977,976,1,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2693,-0.012154804142624624,estimable,class vs all other classes
+mimiciv,3,sodium_mean,Sodium,Electrolytes,713,713,0,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2693,-0.041998447414712106,estimable,class vs all other classes
+mimiciv,1,potassium_mean,Potassium,Electrolytes,1008,1004,4,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2693,-0.1756496500296881,estimable,class vs all other classes
+mimiciv,2,potassium_mean,Potassium,Electrolytes,977,976,1,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2693,0.07148870667432379,estimable,class vs all other classes
+mimiciv,3,potassium_mean,Potassium,Electrolytes,713,713,0,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2693,0.11462132806100975,estimable,class vs all other classes
+mimiciv,1,chloride_mean,Chloride,Electrolytes,1008,1004,4,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2693,0.05284823730232529,estimable,class vs all other classes
+mimiciv,2,chloride_mean,Chloride,Electrolytes,977,976,1,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2693,-0.02240191128397677,estimable,class vs all other classes
+mimiciv,3,chloride_mean,Chloride,Electrolytes,713,713,0,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2693,-0.03351364750309235,estimable,class vs all other classes
+mimiciv,1,bicarbonate_mean,Bicarbonate,Electrolytes,1008,1003,5,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2692,0.3136697071339659,estimable,class vs all other classes
+mimiciv,2,bicarbonate_mean,Bicarbonate,Electrolytes,977,976,1,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2692,-0.08413886504968719,estimable,class vs all other classes
+mimiciv,3,bicarbonate_mean,Bicarbonate,Electrolytes,713,713,0,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2692,-0.25202572211032137,estimable,class vs all other classes
+mimiciv,1,aniongap_mean,Anion gap,Metabolic,1008,1003,5,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2692,-0.35702198842870536,estimable,class vs all other classes
+mimiciv,2,aniongap_mean,Anion gap,Metabolic,977,976,1,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2692,0.12331403314280881,estimable,class vs all other classes
+mimiciv,3,aniongap_mean,Anion gap,Metabolic,713,713,0,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2692,0.25684723884532207,estimable,class vs all other classes
+mimiciv,1,calcium_mean,Total calcium,Electrolytes,1008,997,11,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2676,0.09192499194961279,estimable,class vs all other classes
+mimiciv,2,calcium_mean,Total calcium,Electrolytes,977,969,8,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2676,0.027378112857442,estimable,class vs all other classes
+mimiciv,3,calcium_mean,Total calcium,Electrolytes,713,710,3,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2676,-0.1304697308393135,estimable,class vs all other classes
+mimiciv,1,magnesium_mean,Magnesium,Electrolytes,1008,1001,7,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2683,-0.12533769484087398,estimable,class vs all other classes
+mimiciv,2,magnesium_mean,Magnesium,Electrolytes,977,970,7,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2683,0.06182352852219916,estimable,class vs all other classes
+mimiciv,3,magnesium_mean,Magnesium,Electrolytes,713,712,1,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2683,0.07001458154664204,estimable,class vs all other classes
+mimiciv,1,phosphate_mean,Phosphate,Electrolytes,1008,999,9,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2678,-0.3298923272114832,estimable,class vs all other classes
+mimiciv,2,phosphate_mean,Phosphate,Electrolytes,977,969,8,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2678,0.11773454279052738,estimable,class vs all other classes
+mimiciv,3,phosphate_mean,Phosphate,Electrolytes,713,710,3,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2678,0.23326940171606814,estimable,class vs all other classes
+mimiciv,1,glucose_mean,Glucose,Metabolic,1008,1003,5,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2691,-0.11665276420761153,estimable,class vs all other classes
+mimiciv,2,glucose_mean,Glucose,Metabolic,977,975,2,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2691,0.06716204501313994,estimable,class vs all other classes
+mimiciv,3,glucose_mean,Glucose,Metabolic,713,713,0,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2691,0.054660516341503804,estimable,class vs all other classes
+mimiciv,1,lactate_mean,Lactate,Metabolic,1008,793,215,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2280,-0.33648448057527447,estimable,class vs all other classes
+mimiciv,2,lactate_mean,Lactate,Metabolic,977,870,107,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2280,0.06911926529888009,estimable,class vs all other classes
+mimiciv,3,lactate_mean,Lactate,Metabolic,713,617,96,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2280,0.28514324503011135,estimable,class vs all other classes
+mimiciv,1,heart_rate_mean,Heart rate,Cardiovascular,1008,1004,4,beats/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.10239897099018745,estimable,class vs all other classes
+mimiciv,2,heart_rate_mean,Heart rate,Cardiovascular,977,974,3,beats/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.012402219311919309,estimable,class vs all other classes
+mimiciv,3,heart_rate_mean,Heart rate,Cardiovascular,713,711,2,beats/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,0.1258254346427077,estimable,class vs all other classes
+mimiciv,1,sbp_mean,SBP,Cardiovascular,1008,1004,4,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,0.07482912704336084,estimable,class vs all other classes
+mimiciv,2,sbp_mean,SBP,Cardiovascular,977,974,3,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.054402675732792685,estimable,class vs all other classes
+mimiciv,3,sbp_mean,SBP,Cardiovascular,713,711,2,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.02278063715123286,estimable,class vs all other classes
+mimiciv,1,dbp_mean,DBP,Cardiovascular,1008,1004,4,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,0.08153880766701596,estimable,class vs all other classes
+mimiciv,2,dbp_mean,DBP,Cardiovascular,977,974,3,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.08681793546832595,estimable,class vs all other classes
+mimiciv,3,dbp_mean,DBP,Cardiovascular,713,711,2,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,0.00518784653253361,estimable,class vs all other classes
+mimiciv,1,map_mean,MAP,Cardiovascular,1008,1004,4,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,0.0788786046199577,estimable,class vs all other classes
+mimiciv,2,map_mean,MAP,Cardiovascular,977,974,3,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.0672490673912285,estimable,class vs all other classes
+mimiciv,3,map_mean,MAP,Cardiovascular,713,711,2,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.013221477460535242,estimable,class vs all other classes
+mimiciv,1,resp_rate_mean,Respiratory rate,Respiratory,1008,1004,4,breaths/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.033105901714517307,estimable,class vs all other classes
+mimiciv,2,resp_rate_mean,Respiratory rate,Respiratory,977,974,3,breaths/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.03830599143077558,estimable,class vs all other classes
+mimiciv,3,resp_rate_mean,Respiratory rate,Respiratory,713,711,2,breaths/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,0.0780573196191659,estimable,class vs all other classes
+mimiciv,1,temperature_mean,Temperature,Metabolic,1008,980,28,degC,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2620,0.12923466256426636,estimable,class vs all other classes
+mimiciv,2,temperature_mean,Temperature,Metabolic,977,948,29,degC,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2620,-0.09163889561443206,estimable,class vs all other classes
+mimiciv,3,temperature_mean,Temperature,Metabolic,713,692,21,degC,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2620,-0.04195891562955679,estimable,class vs all other classes
+mimiciv,1,spo2_mean,SpO2,Respiratory,1008,1004,4,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,0.030021294957474236,estimable,class vs all other classes
+mimiciv,2,spo2_mean,SpO2,Respiratory,977,974,3,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.00263581900153048,estimable,class vs all other classes
+mimiciv,3,spo2_mean,SpO2,Respiratory,713,711,2,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.03005407941908541,estimable,class vs all other classes
+mimiciv,1,ph_mean,Arterial pH,Respiratory,1008,598,410,pH,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1718,0.23847805247276932,estimable,class vs all other classes
+mimiciv,2,ph_mean,Arterial pH,Respiratory,977,659,318,pH,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1718,-0.0941690325287049,estimable,class vs all other classes
+mimiciv,3,ph_mean,Arterial pH,Respiratory,713,461,252,pH,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1718,-0.15304049732723995,estimable,class vs all other classes
+mimiciv,1,pao2_mean,PaO2,Respiratory,1008,598,410,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1718,-0.05167232522708964,estimable,class vs all other classes
+mimiciv,2,pao2_mean,PaO2,Respiratory,977,659,318,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1718,0.023128577216904984,estimable,class vs all other classes
+mimiciv,3,pao2_mean,PaO2,Respiratory,713,461,252,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1718,0.030170228838128095,estimable,class vs all other classes
+mimiciv,1,paco2_mean,PaCO2,Respiratory,1008,598,410,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1718,0.1642388583667942,estimable,class vs all other classes
+mimiciv,2,paco2_mean,PaCO2,Respiratory,977,659,318,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1718,-0.0374454264976598,estimable,class vs all other classes
+mimiciv,3,paco2_mean,PaCO2,Respiratory,713,461,252,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1718,-0.135476871252122,estimable,class vs all other classes
+mimiciv,1,pf_ratio_mean,PaO2/FiO2,Respiratory,1008,523,485,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1487,-0.03283613754029921,estimable,class vs all other classes
+mimiciv,2,pf_ratio_mean,PaO2/FiO2,Respiratory,977,570,407,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1487,0.014929061639394807,estimable,class vs all other classes
+mimiciv,3,pf_ratio_mean,PaO2/FiO2,Respiratory,713,394,319,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1487,0.019081652382400782,estimable,class vs all other classes
+mimiciv,1,gcs_mean,GCS,Neurologic,1008,1004,4,points,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,0.018999055000381473,estimable,class vs all other classes
+mimiciv,2,gcs_mean,GCS,Neurologic,977,974,3,points,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.012062428491700316,estimable,class vs all other classes
+mimiciv,3,gcs_mean,GCS,Neurologic,713,711,2,points,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2689,-0.007691609112610639,estimable,class vs all other classes
+mimiciv,1,urine_hourly_mean,Urine output,Renal,1008,997,11,mL/h,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2623,0.271341366598002,estimable,class vs all other classes
+mimiciv,2,urine_hourly_mean,Urine output,Renal,977,935,42,mL/h,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2623,-0.08111369455201284,estimable,class vs all other classes
+mimiciv,3,urine_hourly_mean,Urine output,Renal,713,691,22,mL/h,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,2623,-0.2108120121122818,estimable,class vs all other classes
+mimiciii,1,easix_day,EASIX,Index components,520,410,110,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1041,-0.7010686779080173,estimable,class vs all other classes
+mimiciii,2,easix_day,EASIX,Index components,442,330,112,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1041,0.08613337905206703,estimable,class vs all other classes
+mimiciii,3,easix_day,EASIX,Index components,365,301,64,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1041,0.667156027107841,estimable,class vs all other classes
+mimiciii,1,siri_day,SIRI,Index components,520,405,115,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1005,-0.0339255180886932,estimable,class vs all other classes
+mimiciii,2,siri_day,SIRI,Index components,442,340,102,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1005,0.25449958765752057,estimable,class vs all other classes
+mimiciii,3,siri_day,SIRI,Index components,365,260,105,index,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1005,-0.23696356465342935,estimable,class vs all other classes
+mimiciii,1,alt_mean,ALT,Hepatic,520,417,103,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1099,-0.22547079204723547,estimable,class vs all other classes
+mimiciii,2,alt_mean,ALT,Hepatic,442,375,67,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1099,0.04392609728477094,estimable,class vs all other classes
+mimiciii,3,alt_mean,ALT,Hepatic,365,307,58,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1099,0.197430875486577,estimable,class vs all other classes
+mimiciii,1,ast_mean,AST,Hepatic,520,417,103,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1098,-0.3207469994887578,estimable,class vs all other classes
+mimiciii,2,ast_mean,AST,Hepatic,442,375,67,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1098,0.07890872164109003,estimable,class vs all other classes
+mimiciii,3,ast_mean,AST,Hepatic,365,306,59,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1098,0.26373937383888757,estimable,class vs all other classes
+mimiciii,1,alp_mean,ALP,Hepatic,520,413,107,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1086,-0.04512181053918886,estimable,class vs all other classes
+mimiciii,2,alp_mean,ALP,Hepatic,442,368,74,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1086,0.039514772409075125,estimable,class vs all other classes
+mimiciii,3,alp_mean,ALP,Hepatic,365,305,60,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1086,0.007123967248849691,estimable,class vs all other classes
+mimiciii,1,bilirubin_mean,Total bilirubin,Hepatic,520,421,99,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1109,-0.24447990679747952,estimable,class vs all other classes
+mimiciii,2,bilirubin_mean,Total bilirubin,Hepatic,442,375,67,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1109,0.11774639149225816,estimable,class vs all other classes
+mimiciii,3,bilirubin_mean,Total bilirubin,Hepatic,365,313,52,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1109,0.13984198203661924,estimable,class vs all other classes
+mimiciii,1,albumin_mean,Albumin,Hepatic,520,324,196,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,834,0.01314289642243249,estimable,class vs all other classes
+mimiciii,2,albumin_mean,Albumin,Hepatic,442,277,165,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,834,0.05196553606864005,estimable,class vs all other classes
+mimiciii,3,albumin_mean,Albumin,Hepatic,365,233,132,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,834,-0.0688234871919042,estimable,class vs all other classes
+mimiciii,1,creatinine_mean,Creatinine,Renal,520,516,4,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.48179158698562335,estimable,class vs all other classes
+mimiciii,2,creatinine_mean,Creatinine,Renal,442,441,1,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.1856587857376115,estimable,class vs all other classes
+mimiciii,3,creatinine_mean,Creatinine,Renal,365,363,2,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.33038624165635894,estimable,class vs all other classes
+mimiciii,1,bun_mean,BUN,Renal,520,516,4,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.4262284012509998,estimable,class vs all other classes
+mimiciii,2,bun_mean,BUN,Renal,442,441,1,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.21359675963004213,estimable,class vs all other classes
+mimiciii,3,bun_mean,BUN,Renal,365,363,2,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.2401543371467721,estimable,class vs all other classes
+mimiciii,1,ldh_mean,LDH,Index components,520,411,109,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1043,-0.4073363883024736,estimable,class vs all other classes
+mimiciii,2,ldh_mean,LDH,Index components,442,330,112,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1043,0.026706462370798875,estimable,class vs all other classes
+mimiciii,3,ldh_mean,LDH,Index components,365,302,63,U/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1043,0.411469477437373,estimable,class vs all other classes
+mimiciii,1,wbc_mean,WBC,Haematology,520,517,3,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.05901258842705932,estimable,class vs all other classes
+mimiciii,2,wbc_mean,WBC,Haematology,442,441,1,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.15287430760633086,estimable,class vs all other classes
+mimiciii,3,wbc_mean,WBC,Haematology,365,362,3,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.22619299804858523,estimable,class vs all other classes
+mimiciii,1,platelet_mean,Platelets,Haematology,520,517,3,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.44873908744233343,estimable,class vs all other classes
+mimiciii,2,platelet_mean,Platelets,Haematology,442,441,1,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.012294476815248099,estimable,class vs all other classes
+mimiciii,3,platelet_mean,Platelets,Haematology,365,362,3,10^9/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.4779772890057813,estimable,class vs all other classes
+mimiciii,1,hemoglobin_mean,Haemoglobin,Haematology,520,517,3,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.07378772122464941,estimable,class vs all other classes
+mimiciii,2,hemoglobin_mean,Haemoglobin,Haematology,442,441,1,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.0567831369784014,estimable,class vs all other classes
+mimiciii,3,hemoglobin_mean,Haemoglobin,Haematology,365,362,3,g/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.1407666494342891,estimable,class vs all other classes
+mimiciii,1,hematocrit_mean,Haematocrit,Haematology,520,517,3,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1322,0.09764764821985444,estimable,class vs all other classes
+mimiciii,2,hematocrit_mean,Haematocrit,Haematology,442,442,0,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1322,0.0626010477633622,estimable,class vs all other classes
+mimiciii,3,hematocrit_mean,Haematocrit,Haematology,365,363,2,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1322,-0.17293988645648112,estimable,class vs all other classes
+mimiciii,1,rbc_mean,RBC,Haematology,520,517,3,10^12/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.12577129477695503,estimable,class vs all other classes
+mimiciii,2,rbc_mean,RBC,Haematology,442,441,1,10^12/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.028290863156036267,estimable,class vs all other classes
+mimiciii,3,rbc_mean,RBC,Haematology,365,362,3,10^12/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.16751966707947358,estimable,class vs all other classes
+mimiciii,1,mcv_mean,MCV,Haematology,520,517,3,fL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.08697154649561026,estimable,class vs all other classes
+mimiciii,2,mcv_mean,MCV,Haematology,442,441,1,fL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.06570605001970109,estimable,class vs all other classes
+mimiciii,3,mcv_mean,MCV,Haematology,365,362,3,fL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.02568997677235291,estimable,class vs all other classes
+mimiciii,1,inr_mean,INR,Coagulation,520,470,50,ratio,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1230,-0.1810552716341009,estimable,class vs all other classes
+mimiciii,2,inr_mean,INR,Coagulation,442,415,27,ratio,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1230,0.06563652923300412,estimable,class vs all other classes
+mimiciii,3,inr_mean,INR,Coagulation,365,345,20,ratio,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1230,0.1267505497727275,estimable,class vs all other classes
+mimiciii,1,pt_mean,PT,Coagulation,520,470,50,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1230,-0.15859132942507193,estimable,class vs all other classes
+mimiciii,2,pt_mean,PT,Coagulation,442,415,27,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1230,0.07232004011425917,estimable,class vs all other classes
+mimiciii,3,pt_mean,PT,Coagulation,365,345,20,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1230,0.09541872177570423,estimable,class vs all other classes
+mimiciii,1,ptt_mean,aPTT,Coagulation,520,464,56,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1220,-0.21170091448732642,estimable,class vs all other classes
+mimiciii,2,ptt_mean,aPTT,Coagulation,442,411,31,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1220,0.0950786513017183,estimable,class vs all other classes
+mimiciii,3,ptt_mean,aPTT,Coagulation,365,345,20,s,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1220,0.1284221949745037,estimable,class vs all other classes
+mimiciii,1,sodium_mean,Sodium,Electrolytes,520,517,3,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1321,0.07143253025908472,estimable,class vs all other classes
+mimiciii,2,sodium_mean,Sodium,Electrolytes,442,441,1,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1321,-0.061799048781350445,estimable,class vs all other classes
+mimiciii,3,sodium_mean,Sodium,Electrolytes,365,363,2,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1321,-0.012812864659419325,estimable,class vs all other classes
+mimiciii,1,potassium_mean,Potassium,Electrolytes,520,517,3,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.22382637390761873,estimable,class vs all other classes
+mimiciii,2,potassium_mean,Potassium,Electrolytes,442,440,2,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.11429621160831877,estimable,class vs all other classes
+mimiciii,3,potassium_mean,Potassium,Electrolytes,365,363,2,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.12401621424649518,estimable,class vs all other classes
+mimiciii,1,chloride_mean,Chloride,Electrolytes,520,517,3,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1321,0.10588644267235742,estimable,class vs all other classes
+mimiciii,2,chloride_mean,Chloride,Electrolytes,442,441,1,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1321,-0.03560346147450781,estimable,class vs all other classes
+mimiciii,3,chloride_mean,Chloride,Electrolytes,365,363,2,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1321,-0.07815391775322977,estimable,class vs all other classes
+mimiciii,1,bicarbonate_mean,Bicarbonate,Electrolytes,520,516,4,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,0.2689772577868361,estimable,class vs all other classes
+mimiciii,2,bicarbonate_mean,Bicarbonate,Electrolytes,442,441,1,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.10790285831494426,estimable,class vs all other classes
+mimiciii,3,bicarbonate_mean,Bicarbonate,Electrolytes,365,363,2,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1320,-0.17995801936151626,estimable,class vs all other classes
+mimiciii,1,aniongap_mean,Anion gap,Metabolic,520,516,4,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1319,-0.409715665054649,estimable,class vs all other classes
+mimiciii,2,aniongap_mean,Anion gap,Metabolic,442,440,2,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1319,0.13727362320175132,estimable,class vs all other classes
+mimiciii,3,aniongap_mean,Anion gap,Metabolic,365,363,2,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1319,0.3027766159238494,estimable,class vs all other classes
+mimiciii,1,calcium_mean,Total calcium,Electrolytes,520,507,13,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1298,0.028969846881201487,estimable,class vs all other classes
+mimiciii,2,calcium_mean,Total calcium,Electrolytes,442,433,9,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1298,0.04157093262865702,estimable,class vs all other classes
+mimiciii,3,calcium_mean,Total calcium,Electrolytes,365,358,7,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1298,-0.07548191651201483,estimable,class vs all other classes
+mimiciii,1,magnesium_mean,Magnesium,Electrolytes,520,514,6,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1314,-0.1447313381445606,estimable,class vs all other classes
+mimiciii,2,magnesium_mean,Magnesium,Electrolytes,442,438,4,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1314,0.052793268070137234,estimable,class vs all other classes
+mimiciii,3,magnesium_mean,Magnesium,Electrolytes,365,362,3,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1314,0.10238926588731823,estimable,class vs all other classes
+mimiciii,1,phosphate_mean,Phosphate,Electrolytes,520,508,12,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1296,-0.34072679904000425,estimable,class vs all other classes
+mimiciii,2,phosphate_mean,Phosphate,Electrolytes,442,431,11,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1296,0.116346656156885,estimable,class vs all other classes
+mimiciii,3,phosphate_mean,Phosphate,Electrolytes,365,357,8,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1296,0.2496384930616594,estimable,class vs all other classes
+mimiciii,1,glucose_mean,Glucose,Metabolic,520,515,5,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,-0.12024690433991035,estimable,class vs all other classes
+mimiciii,2,glucose_mean,Glucose,Metabolic,442,440,2,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,0.06897367399572711,estimable,class vs all other classes
+mimiciii,3,glucose_mean,Glucose,Metabolic,365,362,3,mg/dL,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,0.05856350702816335,estimable,class vs all other classes
+mimiciii,1,lactate_mean,Lactate,Metabolic,520,385,135,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1012,-0.36929409372818267,estimable,class vs all other classes
+mimiciii,2,lactate_mean,Lactate,Metabolic,442,349,93,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1012,0.10432857657424834,estimable,class vs all other classes
+mimiciii,3,lactate_mean,Lactate,Metabolic,365,278,87,mmol/L,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1012,0.2905699227412505,estimable,class vs all other classes
+mimiciii,1,heart_rate_mean,Heart rate,Cardiovascular,520,517,3,beats/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,-0.059212142277055346,estimable,class vs all other classes
+mimiciii,2,heart_rate_mean,Heart rate,Cardiovascular,442,438,4,beats/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,-0.021705368021364767,estimable,class vs all other classes
+mimiciii,3,heart_rate_mean,Heart rate,Cardiovascular,365,362,3,beats/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,0.0876713535319667,estimable,class vs all other classes
+mimiciii,1,sbp_mean,SBP,Cardiovascular,520,517,3,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,0.05775311880533922,estimable,class vs all other classes
+mimiciii,2,sbp_mean,SBP,Cardiovascular,442,438,4,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,-0.05692228876573054,estimable,class vs all other classes
+mimiciii,3,sbp_mean,SBP,Cardiovascular,365,362,3,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,-0.0030998003304944606,estimable,class vs all other classes
+mimiciii,1,dbp_mean,DBP,Cardiovascular,520,517,3,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1316,0.011620700577973292,estimable,class vs all other classes
+mimiciii,2,dbp_mean,DBP,Cardiovascular,442,438,4,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1316,-0.04340124442346665,estimable,class vs all other classes
+mimiciii,3,dbp_mean,DBP,Cardiovascular,365,361,4,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1316,0.033118334458690994,estimable,class vs all other classes
+mimiciii,1,map_mean,MAP,Cardiovascular,520,517,3,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,0.016767390487578148,estimable,class vs all other classes
+mimiciii,2,map_mean,MAP,Cardiovascular,442,438,4,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,-0.05224185929038402,estimable,class vs all other classes
+mimiciii,3,map_mean,MAP,Cardiovascular,365,362,3,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,0.036790762618148384,estimable,class vs all other classes
+mimiciii,1,resp_rate_mean,Respiratory rate,Respiratory,520,517,3,breaths/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1316,-0.031799336397780154,estimable,class vs all other classes
+mimiciii,2,resp_rate_mean,Respiratory rate,Respiratory,442,438,4,breaths/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1316,-0.08204964126499506,estimable,class vs all other classes
+mimiciii,3,resp_rate_mean,Respiratory rate,Respiratory,365,361,4,breaths/min,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1316,0.12146560089618327,estimable,class vs all other classes
+mimiciii,1,temperature_mean,Temperature,Metabolic,520,513,7,degC,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1306,0.12807365013575941,estimable,class vs all other classes
+mimiciii,2,temperature_mean,Temperature,Metabolic,442,433,9,degC,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1306,-0.08690431097143933,estimable,class vs all other classes
+mimiciii,3,temperature_mean,Temperature,Metabolic,365,360,5,degC,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1306,-0.04841965681441679,estimable,class vs all other classes
+mimiciii,1,spo2_mean,SpO2,Respiratory,520,517,3,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,0.02795732580670793,estimable,class vs all other classes
+mimiciii,2,spo2_mean,SpO2,Respiratory,442,438,4,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,0.039587765925762256,estimable,class vs all other classes
+mimiciii,3,spo2_mean,SpO2,Respiratory,365,362,3,%,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,-0.0723563970446223,estimable,class vs all other classes
+mimiciii,1,ph_mean,Arterial pH,Respiratory,520,398,122,pH,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1023,0.19165198710617132,estimable,class vs all other classes
+mimiciii,2,ph_mean,Arterial pH,Respiratory,442,342,100,pH,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1023,-0.06618925690212425,estimable,class vs all other classes
+mimiciii,3,ph_mean,Arterial pH,Respiratory,365,283,82,pH,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1023,-0.13907313289758472,estimable,class vs all other classes
+mimiciii,1,pao2_mean,PaO2,Respiratory,520,398,122,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1023,-0.05801513226427105,estimable,class vs all other classes
+mimiciii,2,pao2_mean,PaO2,Respiratory,442,342,100,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1023,0.03832059110145973,estimable,class vs all other classes
+mimiciii,3,pao2_mean,PaO2,Respiratory,365,283,82,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1023,0.022816684445621467,estimable,class vs all other classes
+mimiciii,1,paco2_mean,PaCO2,Respiratory,520,398,122,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1023,0.159937063954263,estimable,class vs all other classes
+mimiciii,2,paco2_mean,PaCO2,Respiratory,442,342,100,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1023,-0.06286896101154249,estimable,class vs all other classes
+mimiciii,3,paco2_mean,PaCO2,Respiratory,365,283,82,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1023,-0.10800966869975877,estimable,class vs all other classes
+mimiciii,1,pf_ratio_mean,PaO2/FiO2,Respiratory,520,327,193,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,832,-0.0269939707940663,estimable,class vs all other classes
+mimiciii,2,pf_ratio_mean,PaO2/FiO2,Respiratory,442,272,170,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,832,0.04812767239642002,estimable,class vs all other classes
+mimiciii,3,pf_ratio_mean,PaO2/FiO2,Respiratory,365,233,132,mmHg,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,832,-0.020915827281207583,estimable,class vs all other classes
+mimiciii,1,gcs_mean,GCS,Neurologic,520,517,3,points,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,-0.001761693633442982,estimable,class vs all other classes
+mimiciii,2,gcs_mean,GCS,Neurologic,442,438,4,points,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,0.006976701445561539,estimable,class vs all other classes
+mimiciii,3,gcs_mean,GCS,Neurologic,365,362,3,points,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1317,-0.00543558156403607,estimable,class vs all other classes
+mimiciii,1,urine_hourly_mean,Urine output,Renal,520,515,5,mL/h,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1301,0.256620096870499,estimable,class vs all other classes
+mimiciii,2,urine_hourly_mean,Urine output,Renal,442,431,11,mL/h,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1301,-0.049867203244950226,estimable,class vs all other classes
+mimiciii,3,urine_hourly_mean,Urine output,Renal,365,355,10,mL/h,fixed labels + V5 Day 1 cache,fixed K3 d2 pruning; current landmark endpoints,1301,-0.22904517336371055,estimable,class vs all other classes

@@ -1,0 +1,19 @@
+Characteristic,Type,MIMIC-IV,MIMIC-III,P value
+Patients,count,"51,658","32,385",""
+"Age, years",continuous,67.0 (55.0-77.0),66.0 (52.0-77.0),<0.001
+Male sex,binary,"29,433 (57.0%)","18,415 (56.9%)",0.746
+White race/ethnicity,binary,"33,860 (65.5%)","23,077 (71.3%)",<0.001
+Sepsis,binary,"23,455 (45.4%)","16,222 (50.1%)",<0.001
+OASIS,continuous,31.0 (25.0-37.0),31.0 (25.0-37.0),<0.001
+SOFA,continuous,4.0 (2.0-6.0),6.0 (4.0-8.0),<0.001
+SIRS score,continuous,3.0 (2.0-3.0),3.0 (2.0-4.0),<0.001
+"Mechanical ventilation, Day 1",binary,"21,286 (41.2%)","16,155 (49.9%)",<0.001
+"Vasopressor, Day 1",binary,"15,630 (30.3%)","10,385 (32.1%)",<0.001
+"CRRT, Day 1",binary,683 (1.3%),158 (0.5%),<0.001
+"AKI, Day 1",binary,"26,662 (51.6%)","14,390 (44.4%)",<0.001
+"ICU length of stay, days",continuous,2.4 (1.5-4.5),2.5 (1.6-4.8),<0.001
+"Hospital length of stay, days",continuous,7.6 (4.7-12.9),7.6 (4.7-12.9),0.652
+Day 1 EASIX,continuous,2.4 (1.1-6.6),2.1 (1.0-5.6),<0.001
+Day 1 SIRI,continuous,4.0 (1.7-9.5),4.4 (2.0-9.7),<0.001
+28-day mortality,binary,"6,783 (13.1%)","4,085 (12.6%)",0.030
+90-day mortality,binary,"9,383 (18.2%)","5,718 (17.7%)",0.062

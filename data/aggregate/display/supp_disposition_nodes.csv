@@ -1,0 +1,43 @@
+dataset,flow,horizon,hour,category,stays,cohort_stays,panel_percent,percentage_label
+mimiciv,icu_disposition,7,1,Class 1,1008,2698,37.36100815418829,37.4%
+mimiciv,icu_disposition,7,1,Class 2,977,2698,36.212008895478135,36.2%
+mimiciv,icu_disposition,7,1,Class 3,713,2698,26.42698295033358,26.4%
+mimiciv,icu_disposition,7,3,Class 2,885,2698,32.80207561156412,32.8%
+mimiciv,icu_disposition,7,3,Class 1,863,2698,31.986656782802076,32.0%
+mimiciv,icu_disposition,7,3,Class 3,607,2698,22.498146775389177,22.5%
+mimiciv,icu_disposition,7,3,live_exit,280,2698,10.378057820607857,10.4%
+mimiciv,icu_disposition,7,3,icu_death,59,2698,2.1868050407709414,2.2%
+mimiciv,icu_disposition,7,3,unknown,4,2698,0.14825796886582654,0.1%
+mimiciv,icu_disposition,7,5,Class 2,721,2698,26.723498888065233,26.7%
+mimiciv,icu_disposition,7,5,live_exit,698,2698,25.87101556708673,25.9%
+mimiciv,icu_disposition,7,5,Class 1,646,2698,23.943661971830984,23.9%
+mimiciv,icu_disposition,7,5,Class 3,477,2698,17.679762787249814,17.7%
+mimiciv,icu_disposition,7,5,icu_death,147,2698,5.448480355819125,5.4%
+mimiciv,icu_disposition,7,5,unknown,9,2698,0.3335804299481097,0.3%
+mimiciv,icu_disposition,7,7,live_exit,1022,2698,37.879911045218684,37.9%
+mimiciv,icu_disposition,7,7,Class 2,566,2698,20.978502594514456,21.0%
+mimiciv,icu_disposition,7,7,Class 1,484,2698,17.93921423276501,17.9%
+mimiciv,icu_disposition,7,7,Class 3,365,2698,13.528539659006672,13.5%
+mimiciv,icu_disposition,7,7,icu_death,249,2698,9.229058561897702,9.2%
+mimiciv,icu_disposition,7,7,unknown,12,2698,0.4447739065974796,0.4%
+mimiciii,icu_disposition,7,1,Class 1,520,1327,39.18613413715147,39.2%
+mimiciii,icu_disposition,7,1,Class 2,442,1327,33.30821401657875,33.3%
+mimiciii,icu_disposition,7,1,Class 3,365,1327,27.50565184626978,27.5%
+mimiciii,icu_disposition,7,3,Class 1,464,1327,34.96608892238131,35.0%
+mimiciii,icu_disposition,7,3,Class 2,401,1327,30.218538055764885,30.2%
+mimiciii,icu_disposition,7,3,Class 3,317,1327,23.888470233609645,23.9%
+mimiciii,icu_disposition,7,3,live_exit,112,1327,8.440090429540316,8.4%
+mimiciii,icu_disposition,7,3,icu_death,32,1327,2.4114544084400906,2.4%
+mimiciii,icu_disposition,7,3,unknown,1,1327,0.07535795026375283,0.1%
+mimiciii,icu_disposition,7,5,Class 1,356,1327,26.827430293896008,26.8%
+mimiciii,icu_disposition,7,5,Class 2,320,1327,24.114544084400904,24.1%
+mimiciii,icu_disposition,7,5,live_exit,315,1327,23.73775433308214,23.7%
+mimiciii,icu_disposition,7,5,Class 3,262,1327,19.74378296910324,19.7%
+mimiciii,icu_disposition,7,5,icu_death,72,1327,5.425772418990204,5.4%
+mimiciii,icu_disposition,7,5,unknown,2,1327,0.15071590052750566,0.2%
+mimiciii,icu_disposition,7,7,live_exit,458,1327,34.51394122079879,34.5%
+mimiciii,icu_disposition,7,7,Class 1,265,1327,19.9698568198945,20.0%
+mimiciii,icu_disposition,7,7,Class 2,258,1327,19.44235116804823,19.4%
+mimiciii,icu_disposition,7,7,Class 3,214,1327,16.126601356443103,16.1%
+mimiciii,icu_disposition,7,7,icu_death,130,1327,9.796533534287867,9.8%
+mimiciii,icu_disposition,7,7,unknown,2,1327,0.15071590052750566,0.2%

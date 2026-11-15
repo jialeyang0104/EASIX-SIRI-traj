@@ -1,0 +1,37 @@
+Characteristic,Type,Class 1,Class 2,Class 3,P value,Dataset
+Patients,count,"1,008",977,713,"",MIMIC-IV
+"Age, years",continuous,61.0 (48.0-74.0),64.0 (53.0-75.0),63.0 (51.0-72.0),<0.001,MIMIC-IV
+Male sex,binary,524 (52.0%),583 (59.7%),405 (56.8%),0.002,MIMIC-IV
+White race/ethnicity,binary,567 (56.2%),596 (61.0%),432 (60.6%),0.064,MIMIC-IV
+Sepsis,binary,743 (73.7%),844 (86.4%),618 (86.7%),<0.001,MIMIC-IV
+OASIS,continuous,35.0 (29.0-40.0),37.0 (31.0-44.0),38.0 (31.0-45.0),<0.001,MIMIC-IV
+SOFA,continuous,5.0 (3.0-8.0),8.0 (6.0-11.0),10.0 (7.0-13.0),<0.001,MIMIC-IV
+SIRS score,continuous,3.0 (2.0-4.0),3.0 (3.0-4.0),3.0 (3.0-4.0),<0.001,MIMIC-IV
+"Mechanical ventilation, Day 1",binary,571 (56.6%),601 (61.5%),416 (58.3%),0.084,MIMIC-IV
+"Vasopressor, Day 1",binary,374 (37.1%),508 (52.0%),356 (49.9%),<0.001,MIMIC-IV
+"CRRT, Day 1",binary,5 (0.5%),66 (6.8%),78 (10.9%),<0.001,MIMIC-IV
+"AKI, Day 1",binary,539 (53.5%),712 (72.9%),549 (77.0%),<0.001,MIMIC-IV
+"ICU length of stay, days",continuous,6.8 (3.9-12.2),8.2 (4.9-13.3),7.2 (4.1-12.7),<0.001,MIMIC-IV
+"Hospital length of stay, days",continuous,13.7 (8.7-23.2),15.9 (9.9-26.3),16.6 (8.2-28.1),<0.001,MIMIC-IV
+Day 1 EASIX,continuous,1.4 (0.8-2.3),6.3 (3.7-11.1),29.1 (12.9-77.0),<0.001,MIMIC-IV
+Day 1 SIRI,continuous,6.4 (2.6-15.9),10.1 (4.9-23.2),5.0 (1.1-15.1),<0.001,MIMIC-IV
+28-day mortality,binary,201 (19.9%),366 (37.5%),310 (43.5%),<0.001,MIMIC-IV
+90-day mortality,binary,270 (26.8%),460 (47.1%),370 (51.9%),<0.001,MIMIC-IV
+Patients,count,520,442,365,"",MIMIC-III
+"Age, years",continuous,58.0 (46.0-74.0),62.0 (51.0-74.0),60.0 (47.0-70.0),0.026,MIMIC-III
+Male sex,binary,255 (49.0%),251 (56.8%),205 (56.2%),0.028,MIMIC-III
+White race/ethnicity,binary,355 (68.3%),312 (70.6%),246 (67.4%),0.588,MIMIC-III
+Sepsis,binary,457 (87.9%),396 (89.6%),338 (92.6%),0.074,MIMIC-III
+OASIS,continuous,35.0 (30.0-41.0),38.0 (32.0-44.0),39.0 (32.0-46.0),<0.001,MIMIC-III
+SOFA,continuous,7.0 (5.0-10.0),9.0 (7.0-12.0),11.0 (8.0-13.0),<0.001,MIMIC-III
+SIRS score,continuous,3.0 (3.0-4.0),3.0 (3.0-4.0),4.0 (3.0-4.0),0.012,MIMIC-III
+"Mechanical ventilation, Day 1",binary,311 (59.8%),273 (61.8%),233 (63.8%),0.477,MIMIC-III
+"Vasopressor, Day 1",binary,185 (35.6%),211 (47.7%),166 (45.5%),<0.001,MIMIC-III
+"CRRT, Day 1",binary,0 (0.0%),13 (2.9%),27 (7.4%),<0.001,MIMIC-III
+"AKI, Day 1",binary,239 (46.0%),278 (62.9%),252 (69.0%),<0.001,MIMIC-III
+"ICU length of stay, days",continuous,7.2 (4.2-13.2),8.4 (4.8-13.8),9.0 (4.7-16.3),0.012,MIMIC-III
+"Hospital length of stay, days",continuous,14.6 (8.7-22.8),14.2 (8.7-25.1),17.0 (9.7-29.8),0.013,MIMIC-III
+Day 1 EASIX,continuous,1.3 (0.8-2.2),6.1 (3.8-10.7),27.4 (11.1-68.8),<0.001,MIMIC-III
+Day 1 SIRI,continuous,4.9 (2.2-13.2),8.5 (4.8-19.6),3.7 (1.0-10.9),<0.001,MIMIC-III
+28-day mortality,binary,92 (17.7%),141 (31.9%),148 (40.5%),<0.001,MIMIC-III
+90-day mortality,binary,131 (25.2%),186 (42.1%),184 (50.4%),<0.001,MIMIC-III

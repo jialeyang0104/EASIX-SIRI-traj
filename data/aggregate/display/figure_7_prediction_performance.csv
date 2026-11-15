@@ -1,0 +1,22 @@
+cohort,n,metric,value,ci_low,ci_high,evaluation
+MIMIC-IV train,1888,macro_auroc,0.9344966653097084,0.92562398338758,0.9423888232736908,apparent training fit
+MIMIC-IV train,1888,macro_auprc,0.8848012839263727,0.8698023529497103,0.8982928631220423,apparent training fit
+MIMIC-IV train,1888,accuracy,0.801906779661017,0.784427966101695,0.8188691737288135,apparent training fit
+MIMIC-IV train,1888,balanced_accuracy,0.7942269134511402,0.7758301819931182,0.8123385886700196,apparent training fit
+MIMIC-IV train,1888,macro_f1,0.7980988146312599,0.7797914081044461,0.8161581379425797,apparent training fit
+MIMIC-IV train,1888,log_loss,0.4881950914859772,0.4661060638725757,0.5124971538782119,apparent training fit
+MIMIC-IV train,1888,multiclass_brier,0.2866354477845326,0.2716878797527438,0.3034279835032719,apparent training fit
+MIMIC-IV internal validation,810,macro_auroc,0.9109838691830588,0.8944162227419087,0.9266233997115462,fixed-model held-out validation
+MIMIC-IV internal validation,810,macro_auprc,0.8338911139632605,0.8060684492294278,0.8636483843119296,fixed-model held-out validation
+MIMIC-IV internal validation,810,accuracy,0.7777777777777778,0.7481481481481481,0.8061728395061728,fixed-model held-out validation
+MIMIC-IV internal validation,810,balanced_accuracy,0.7725903718565535,0.7418309743481127,0.801847242034975,fixed-model held-out validation
+MIMIC-IV internal validation,810,macro_f1,0.7780086083555786,0.7475574935492126,0.8071433491780461,fixed-model held-out validation
+MIMIC-IV internal validation,810,log_loss,0.5477752089500427,0.5057403340935707,0.5911782085895538,fixed-model held-out validation
+MIMIC-IV internal validation,810,multiclass_brier,0.3222975821718558,0.2937974723725247,0.3506382967329271,fixed-model held-out validation
+MIMIC-III external validation,1327,macro_auroc,0.9124182353648892,0.9006982054693622,0.9239945054408338,fixed-model held-out validation
+MIMIC-III external validation,1327,macro_auprc,0.843541300634012,0.824955166580746,0.8638274663914288,fixed-model held-out validation
+MIMIC-III external validation,1327,accuracy,0.7678975131876413,0.746024868123587,0.7897513187641296,fixed-model held-out validation
+MIMIC-III external validation,1327,balanced_accuracy,0.7548069174982954,0.7309812831876693,0.7782459994008141,fixed-model held-out validation
+MIMIC-III external validation,1327,macro_f1,0.7590269014088608,0.7350352952689313,0.782115883239045,fixed-model held-out validation
+MIMIC-III external validation,1327,log_loss,0.5537420511245728,0.5206475511193276,0.5873612776398659,fixed-model held-out validation
+MIMIC-III external validation,1327,multiclass_brier,0.3242338477720795,0.3032874504507002,0.3444584157566323,fixed-model held-out validation

@@ -1,0 +1,5 @@
+dataset,horizon,analysis,n,events,logrank_chisq,df,logrank_p
+mimiciv,28-day,day7_landmark,1415,448,27.9483283122502,2,8.53291889659922e-07
+mimiciv,90-day,day7_landmark,1415,587,37.9441049329293,2,5.76158937889954e-09
+mimiciii,28-day,day7_landmark,737,218,11.933097735925,2,0.0025630716718055
+mimiciii,90-day,day7_landmark,737,296,18.3185302582946,2,0.0001052402076013

@@ -1,0 +1,40 @@
+variable,label,unit,system,log2,variables_in_system,feature_weight,source
+alt_mean,ALT,U/L,Hepatic,True,5,0.2,subtype_radar.csv: observed-variable mean reference percentiles
+ast_mean,AST,U/L,Hepatic,True,5,0.2,subtype_radar.csv: observed-variable mean reference percentiles
+alp_mean,ALP,U/L,Hepatic,True,5,0.2,subtype_radar.csv: observed-variable mean reference percentiles
+bilirubin_mean,Total bilirubin,mg/dL,Hepatic,True,5,0.2,subtype_radar.csv: observed-variable mean reference percentiles
+albumin_mean,Albumin,g/dL,Hepatic,True,5,0.2,subtype_radar.csv: observed-variable mean reference percentiles
+creatinine_mean,Creatinine,mg/dL,Renal,True,3,0.3333333333333333,subtype_radar.csv: observed-variable mean reference percentiles
+bun_mean,BUN,mg/dL,Renal,True,3,0.3333333333333333,subtype_radar.csv: observed-variable mean reference percentiles
+wbc_mean,WBC,10^9/L,Haematology,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+platelet_mean,Platelets,10^9/L,Haematology,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+hemoglobin_mean,Haemoglobin,g/dL,Haematology,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+hematocrit_mean,Haematocrit,%,Haematology,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+rbc_mean,RBC,10^12/L,Haematology,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+mcv_mean,MCV,fL,Haematology,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+inr_mean,INR,ratio,Coagulation,True,3,0.3333333333333333,subtype_radar.csv: observed-variable mean reference percentiles
+pt_mean,PT,s,Coagulation,True,3,0.3333333333333333,subtype_radar.csv: observed-variable mean reference percentiles
+ptt_mean,aPTT,s,Coagulation,True,3,0.3333333333333333,subtype_radar.csv: observed-variable mean reference percentiles
+sodium_mean,Sodium,mmol/L,Electrolytes,True,7,0.14285714285714285,subtype_radar.csv: observed-variable mean reference percentiles
+potassium_mean,Potassium,mmol/L,Electrolytes,True,7,0.14285714285714285,subtype_radar.csv: observed-variable mean reference percentiles
+chloride_mean,Chloride,mmol/L,Electrolytes,True,7,0.14285714285714285,subtype_radar.csv: observed-variable mean reference percentiles
+bicarbonate_mean,Bicarbonate,mmol/L,Electrolytes,True,7,0.14285714285714285,subtype_radar.csv: observed-variable mean reference percentiles
+aniongap_mean,Anion gap,mmol/L,Metabolic,True,4,0.25,subtype_radar.csv: observed-variable mean reference percentiles
+calcium_mean,Total calcium,mg/dL,Electrolytes,True,7,0.14285714285714285,subtype_radar.csv: observed-variable mean reference percentiles
+magnesium_mean,Magnesium,mg/dL,Electrolytes,True,7,0.14285714285714285,subtype_radar.csv: observed-variable mean reference percentiles
+phosphate_mean,Phosphate,mg/dL,Electrolytes,True,7,0.14285714285714285,subtype_radar.csv: observed-variable mean reference percentiles
+glucose_mean,Glucose,mg/dL,Metabolic,True,4,0.25,subtype_radar.csv: observed-variable mean reference percentiles
+lactate_mean,Lactate,mmol/L,Metabolic,True,4,0.25,subtype_radar.csv: observed-variable mean reference percentiles
+heart_rate_mean,Heart rate,beats/min,Cardiovascular,True,4,0.25,subtype_radar.csv: observed-variable mean reference percentiles
+sbp_mean,SBP,mmHg,Cardiovascular,True,4,0.25,subtype_radar.csv: observed-variable mean reference percentiles
+dbp_mean,DBP,mmHg,Cardiovascular,True,4,0.25,subtype_radar.csv: observed-variable mean reference percentiles
+map_mean,MAP,mmHg,Cardiovascular,True,4,0.25,subtype_radar.csv: observed-variable mean reference percentiles
+resp_rate_mean,Respiratory rate,breaths/min,Respiratory,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+temperature_mean,Temperature,degC,Metabolic,False,4,0.25,subtype_radar.csv: observed-variable mean reference percentiles
+spo2_mean,SpO2,%,Respiratory,False,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+ph_mean,Arterial pH,pH,Respiratory,False,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+pao2_mean,PaO2,mmHg,Respiratory,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+paco2_mean,PaCO2,mmHg,Respiratory,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+pf_ratio_mean,PaO2/FiO2,mmHg,Respiratory,True,6,0.16666666666666666,subtype_radar.csv: observed-variable mean reference percentiles
+gcs_mean,GCS,points,Neurologic,False,1,1.0,subtype_radar.csv: observed-variable mean reference percentiles
+urine_hourly_mean,Urine output,mL/h,Renal,True,3,0.3333333333333333,subtype_radar.csv: observed-variable mean reference percentiles

@@ -1,0 +1,101 @@
+term,chisq,df,p_value,dataset,analysis,model,method
+log2_easix_z,24.9946130552056,1,5.74907164506367e-07,mimiciv,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+age,3.73815870458384,1,0.0531830212952602,mimiciv,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+sex_group,0.74811102017646,1,0.387074952736955,mimiciv,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+race_group,9.98683770536487,4,0.0406499837261345,mimiciv,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+oasis_day1,5.27086137079956,1,0.021685279742906,mimiciv,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+GLOBAL,44.5869733989431,8,4.40632949329066e-07,mimiciv,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+log2_easix_z,154.929173705026,1,1.451013727544e-35,mimiciv,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+age,8.44233584294983,1,0.00366585080140529,mimiciv,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+sex_group,0.521693598114825,1,0.470120134054843,mimiciv,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+race_group,5.86377563803122,4,0.209555187938171,mimiciv,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+oasis_day1,186.341718781654,1,1.99937722804134e-42,mimiciv,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+GLOBAL,275.550616272344,8,6.5132426228229e-55,mimiciv,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+log2_siri_z,0.477307928819133,1,0.489644251288782,mimiciv,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+age,0.218731560008459,1,0.64000811018252,mimiciv,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+sex_group,0.0177316813093924,1,0.894066560230587,mimiciv,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+race_group,4.79942657539735,4,0.308503470291889,mimiciv,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+oasis_day1,5.25138468411341,1,0.0219293136199649,mimiciv,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+GLOBAL,12.1892212818338,8,0.142958877630037,mimiciv,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+log2_siri_z,17.6422914126905,1,2.66593596581662e-05,mimiciv,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+age,17.284606882832,1,3.21783035947598e-05,mimiciv,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+sex_group,1.29922092366082,1,0.254355579895899,mimiciv,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+race_group,5.39372941297473,4,0.249229873239928,mimiciv,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+oasis_day1,150.193564192936,1,1.57271990007003e-34,mimiciv,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+GLOBAL,189.054619254759,8,1.28731899189896e-36,mimiciv,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+log2_easix_z,14.9595625557605,1,0.000109839972149229,mimiciv,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+log2_siri_z,0.151244088809128,1,0.697349286326978,mimiciv,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+age,1.2584197738761,1,0.261950417895212,mimiciv,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+sex_group,0.0604937883758127,1,0.805717183264609,mimiciv,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+race_group,4.73726486549399,4,0.315333150928016,mimiciv,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+oasis_day1,1.71428519926319,1,0.190430330420638,mimiciv,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+GLOBAL,23.5024895714306,9,0.00516118917297775,mimiciv,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+log2_easix_z,76.3740387506811,1,2.34716755729242e-18,mimiciv,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+log2_siri_z,0.985849808989604,1,0.32075883729946,mimiciv,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+age,6.10873904296735,1,0.0134515064276418,mimiciv,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+sex_group,2.40884632530826,1,0.120651252886755,mimiciv,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+race_group,3.95408467117985,4,0.412255476684938,mimiciv,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+oasis_day1,91.5413045612473,1,1.09287031058392e-21,mimiciv,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+GLOBAL,137.660043752102,9,3.1361713162659e-25,mimiciv,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+trajectory_class,3.38803136253269,2,0.183780038160644,mimiciv,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+age,5.49445122226992,1,0.0190769142272282,mimiciv,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+sex_group,0.831413015430925,1,0.361864258873754,mimiciv,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+race_group,13.1747348005989,4,0.0104528279480933,mimiciv,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+oasis_day1,1.3122572708376,1,0.251986370553985,mimiciv,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+GLOBAL,23.3551884485287,9,0.00544602362877052,mimiciv,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+trajectory_class,1.94749085734427,2,0.377665865240007,mimiciv,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+age,2.05417309823246,1,0.151789640767938,mimiciv,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+sex_group,0.0273145673073151,1,0.868730531481393,mimiciv,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+race_group,15.3653261228431,4,0.0040005046013026,mimiciv,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+oasis_day1,0.251012767887811,1,0.61636285758682,mimiciv,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+GLOBAL,19.50987664826,9,0.0211901451795498,mimiciv,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+log2_easix_z,0.681678278249441,1,0.409009413473675,mimiciii,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+age,1.25453306615644,1,0.262688449052042,mimiciii,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+sex_group,1.59693514006663,1,0.206338087398196,mimiciii,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+race_group,2.36048305869767,4,0.669780075900655,mimiciii,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+oasis_day1,4.11764533935169,1,0.0424381067368211,mimiciii,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+GLOBAL,8.92410737446402,8,0.348738608081221,mimiciii,static_day1_24h_landmark,static_easix,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+log2_easix_z,51.8772657272502,1,5.90805330505566e-13,mimiciii,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+age,0.0181083947902842,1,0.892953889798415,mimiciii,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+sex_group,0.0463043596943312,1,0.829623492008892,mimiciii,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+race_group,2.3659007265294,4,0.668798122950049,mimiciii,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+oasis_day1,93.5408392156381,1,3.97905043095535e-22,mimiciii,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+GLOBAL,119.63389091026,8,3.94556493594904e-22,mimiciii,static_day1_24h_landmark,static_easix,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+log2_siri_z,1.18411902367297,1,0.276519036731059,mimiciii,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+age,0.639740038719096,1,0.423804948580881,mimiciii,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+sex_group,0.166610174108197,1,0.683142194210603,mimiciii,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+race_group,5.66090434226205,4,0.225943725131468,mimiciii,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+oasis_day1,2.98761280964846,1,0.0839037738368642,mimiciii,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+GLOBAL,13.1450625635697,8,0.106954977171331,mimiciii,static_day1_24h_landmark,static_siri,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+log2_siri_z,3.32171039703553,1,0.0683706638698285,mimiciii,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+age,6.48602061439479,1,0.0108726095286248,mimiciii,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+sex_group,1.82051686678647,1,0.1772517650031,mimiciii,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+race_group,6.23158565490059,4,0.182507986693663,mimiciii,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+oasis_day1,82.4095577487175,1,1.10617610493806e-19,mimiciii,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+GLOBAL,110.55390975822,8,2.92940955674981e-20,mimiciii,static_day1_24h_landmark,static_siri,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+log2_easix_z,2.87695314326978,1,0.0898558960352044,mimiciii,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+log2_siri_z,1.5021301300501,1,0.220343897315491,mimiciii,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+age,0.00224436676933734,1,0.962214554414523,mimiciii,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+sex_group,0.530042733126362,1,0.466588894146677,mimiciii,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+race_group,2.07557645338335,4,0.721860617261426,mimiciii,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+oasis_day1,0.789763427744238,1,0.374171669333231,mimiciii,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+GLOBAL,7.98180947686107,9,0.535980424856629,mimiciii,static_day1_24h_landmark,static_joint,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+log2_easix_z,34.3739414581673,1,4.54771546749874e-09,mimiciii,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+log2_siri_z,0.394964797459313,1,0.529701169962071,mimiciii,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+age,0.120110229157602,1,0.728914967884253,mimiciii,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+sex_group,0.119058092102765,1,0.730058318213078,mimiciii,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+race_group,4.10370837647084,4,0.392152355872288,mimiciii,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+oasis_day1,53.954778091505,1,2.05157507717256e-13,mimiciii,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+GLOBAL,75.0431479315781,9,1.54959948987626e-12,mimiciii,static_day1_24h_landmark,static_joint,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+trajectory_class,7.2213952332738,2,0.0270329816290343,mimiciii,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+age,1.32962163881077,1,0.248872539777713,mimiciii,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+sex_group,0.888090304643268,1,0.345995342379917,mimiciii,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+race_group,5.40397162099834,4,0.248300287329062,mimiciii,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+oasis_day1,0.117566234565366,1,0.731689242872554,mimiciii,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+GLOBAL,17.2889916383471,9,0.0443781028578352,mimiciii,day7_landmark,gbmtm_k3,Exploratory log(1+t) Schoenfeld diagnostic on weighted Fine-Gray pseudo-data
+trajectory_class,3.79504807930337,2,0.149939404028,mimiciii,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+age,1.25296149938693,1,0.262987599865142,mimiciii,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+sex_group,0.361319992662404,1,0.547774057785372,mimiciii,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+race_group,4.36263157582498,4,0.359147932575358,mimiciii,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+oasis_day1,0.985784547575005,1,0.320774855026113,mimiciii,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic
+GLOBAL,11.6538351777046,9,0.233535197247637,mimiciii,day7_landmark,gbmtm_k3,Cause-specific Cox log(1+t) Schoenfeld diagnostic

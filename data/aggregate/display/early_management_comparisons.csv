@@ -1,0 +1,7 @@
+metric,test,statistic,p_value,n,n_class1,n_class2,n_class3,interpretation
+nee_any_24h,Pearson chi-square (2 df),45.20595308224846,1.5263425582289207e-10,2698,1008,977,713,unadjusted descriptive comparison conditional on fixed trajectory labels
+nee_max_24h_positive,Kruskal-Wallis (2 df),55.67540746523244,8.132777298100217e-13,1213,370,497,346,unadjusted descriptive comparison conditional on fixed trajectory labels
+audited_iv_ml_kg_24h,Kruskal-Wallis (2 df),19.451235458630713,5.97334896423027e-05,2688,1002,975,711,unadjusted descriptive comparison conditional on fixed trajectory labels
+map_0_24,Kruskal-Wallis (2 df),16.428649577067972,0.0002707472609847972,2689,1004,974,711,unadjusted descriptive comparison conditional on fixed trajectory labels
+lactate_0_24,Kruskal-Wallis (2 df),286.7973118692659,5.281472407988939e-63,2280,793,870,617,unadjusted descriptive comparison conditional on fixed trajectory labels
+urine_rate_0_24,Kruskal-Wallis (2 df),198.3365871392288,8.545890482872327e-44,2615,988,936,691,unadjusted descriptive comparison conditional on fixed trajectory labels

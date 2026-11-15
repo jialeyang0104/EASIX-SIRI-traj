@@ -1,0 +1,5 @@
+dataset,exposure,horizon,full_assigned_n,eligible_n,excluded_n,intensity_known_n,intensity_unknown_n,deaths,alive,unknown
+mimiciv,treatment_intensity,28,2698,2698,0,2544,154,877,1821,0
+mimiciv,treatment_intensity,ICU,2698,2698,0,2544,154,596,2084,18
+mimiciii,treatment_intensity,28,1327,1327,0,1315,12,381,946,0
+mimiciii,treatment_intensity,ICU,1327,1327,0,1315,12,319,1006,2

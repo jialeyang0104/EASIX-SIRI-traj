@@ -1,0 +1,20 @@
+[project]
+name = "easix-siri-critically-ill-analysis"
+version = "1.0.0"
+description = "Reproducible analysis and figure environment for the diagnosis-unrestricted EASIX/SIRI critically ill cohort study"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "matplotlib==3.10.9",
+  "numpy==2.3.5",
+  "pandas==2.2.3",
+  "pillow==12.2.0",
+  "joblib>=1.4,<2",
+  "scikit-learn>=1.6,<2",
+  "seaborn>=0.13,<1",
+  "shap>=0.47,<1",
+  "torch>=2.7,<3",
+  "xgboost>=3,<4",
+]
+
+[tool.uv]
+package = false

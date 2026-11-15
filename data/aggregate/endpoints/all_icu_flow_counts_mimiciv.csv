@@ -1,0 +1,6 @@
+dataset,step_order,step,n,excluded_from_previous
+mimiciv,1,All ICU stays,94458,
+mimiciv,2,First ICU stay per patient,65366,29092.0
+mimiciv,3,Age >=18 years,65366,0.0
+mimiciv,4,ICU length of stay >=24 h,51838,13528.0
+mimiciv,5,Hospital length of stay >=24 h,51658,180.0

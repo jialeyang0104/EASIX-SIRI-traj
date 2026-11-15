@@ -1,0 +1,49 @@
+dataset,horizon,analysis,model,formula,n_eligible,n_excluded_missing_or_nonpositive,n,events,primary,origin_days,remaining_horizon_days
+mimiciv,28-day,static_day1_admission_inception,static_easix,"Surv(followup_28d_days, event_28d) ~ log2_easix_z + age + sex +      race_group + oasis_day1",51658,37287,14371,3096,FALSE,0,28
+mimiciv,28-day,static_day1_24h_landmark,static_easix,"Surv(static_landmark_time, event_28d) ~ log2_easix_z + age +      sex + race_group + oasis_day1",51606,37266,14340,3065,TRUE,1,27
+mimiciv,28-day,static_day1_admission_inception,static_siri,"Surv(followup_28d_days, event_28d) ~ log2_siri_z + age + sex +      race_group + oasis_day1",51658,32574,19084,2708,FALSE,0,28
+mimiciv,28-day,static_day1_24h_landmark,static_siri,"Surv(static_landmark_time, event_28d) ~ log2_siri_z + age + sex +      race_group + oasis_day1",51606,32542,19064,2688,TRUE,1,27
+mimiciv,28-day,static_day1_admission_inception,static_joint,"Surv(followup_28d_days, event_28d) ~ log2_easix_z + log2_siri_z +      age + sex + race_group + oasis_day1",51658,44413,7245,1665,FALSE,0,28
+mimiciv,28-day,static_day1_24h_landmark,static_joint,"Surv(static_landmark_time, event_28d) ~ log2_easix_z + log2_siri_z +      age + sex + race_group + oasis_day1",51606,44376,7230,1650,TRUE,1,27
+mimiciv,28-day,static_day1_admission_inception,static_joint_interaction,"Surv(followup_28d_days, event_28d) ~ log2_easix_z * log2_siri_z +      age + sex + race_group + oasis_day1",51658,44413,7245,1665,FALSE,0,28
+mimiciv,28-day,static_day1_24h_landmark,static_joint_interaction,"Surv(static_landmark_time, event_28d) ~ log2_easix_z * log2_siri_z +      age + sex + race_group + oasis_day1",51606,44376,7230,1650,TRUE,1,27
+mimiciv,28-day,static_day1_admission_inception,static_sirs_secondary,"Surv(followup_28d_days, event_28d) ~ sirs_day1 + age + sex +      race_group + oasis_day1",51658,0,51658,6783,FALSE,0,28
+mimiciv,28-day,static_day1_24h_landmark,static_sirs_secondary,"Surv(static_landmark_time, event_28d) ~ sirs_day1 + age + sex +      race_group + oasis_day1",51606,0,51606,6731,TRUE,1,27
+mimiciv,90-day,static_day1_admission_inception,static_easix,"Surv(followup_90d_days, event_90d) ~ log2_easix_z + age + sex +      race_group + oasis_day1",51658,37287,14371,4058,FALSE,0,90
+mimiciv,90-day,static_day1_24h_landmark,static_easix,"Surv(static_landmark_time, event_90d) ~ log2_easix_z + age +      sex + race_group + oasis_day1",51606,37266,14340,4027,TRUE,1,89
+mimiciv,90-day,static_day1_admission_inception,static_siri,"Surv(followup_90d_days, event_90d) ~ log2_siri_z + age + sex +      race_group + oasis_day1",51658,32574,19084,3644,FALSE,0,90
+mimiciv,90-day,static_day1_24h_landmark,static_siri,"Surv(static_landmark_time, event_90d) ~ log2_siri_z + age + sex +      race_group + oasis_day1",51606,32542,19064,3624,TRUE,1,89
+mimiciv,90-day,static_day1_admission_inception,static_joint,"Surv(followup_90d_days, event_90d) ~ log2_easix_z + log2_siri_z +      age + sex + race_group + oasis_day1",51658,44413,7245,2159,FALSE,0,90
+mimiciv,90-day,static_day1_24h_landmark,static_joint,"Surv(static_landmark_time, event_90d) ~ log2_easix_z + log2_siri_z +      age + sex + race_group + oasis_day1",51606,44376,7230,2144,TRUE,1,89
+mimiciv,90-day,static_day1_admission_inception,static_joint_interaction,"Surv(followup_90d_days, event_90d) ~ log2_easix_z * log2_siri_z +      age + sex + race_group + oasis_day1",51658,44413,7245,2159,FALSE,0,90
+mimiciv,90-day,static_day1_24h_landmark,static_joint_interaction,"Surv(static_landmark_time, event_90d) ~ log2_easix_z * log2_siri_z +      age + sex + race_group + oasis_day1",51606,44376,7230,2144,TRUE,1,89
+mimiciv,90-day,static_day1_admission_inception,static_sirs_secondary,"Surv(followup_90d_days, event_90d) ~ sirs_day1 + age + sex +      race_group + oasis_day1",51658,0,51658,9383,FALSE,0,90
+mimiciv,90-day,static_day1_24h_landmark,static_sirs_secondary,"Surv(static_landmark_time, event_90d) ~ sirs_day1 + age + sex +      race_group + oasis_day1",51606,0,51606,9331,TRUE,1,89
+mimiciii,28-day,static_day1_admission_inception,static_easix,"Surv(followup_28d_days, event_28d) ~ log2_easix_z + age + sex +      race_group + oasis_day1",32385,25288,7097,1441,FALSE,0,28
+mimiciii,28-day,static_day1_24h_landmark,static_easix,"Surv(static_landmark_time, event_28d) ~ log2_easix_z + age +      sex + race_group + oasis_day1",32358,25272,7086,1430,TRUE,1,27
+mimiciii,28-day,static_day1_admission_inception,static_siri,"Surv(followup_28d_days, event_28d) ~ log2_siri_z + age + sex +      race_group + oasis_day1",32385,24710,7675,1400,FALSE,0,28
+mimiciii,28-day,static_day1_24h_landmark,static_siri,"Surv(static_landmark_time, event_28d) ~ log2_siri_z + age + sex +      race_group + oasis_day1",32358,24689,7669,1394,TRUE,1,27
+mimiciii,28-day,static_day1_admission_inception,static_joint,"Surv(followup_28d_days, event_28d) ~ log2_easix_z + log2_siri_z +      age + sex + race_group + oasis_day1",32385,29177,3208,745,FALSE,0,28
+mimiciii,28-day,static_day1_24h_landmark,static_joint,"Surv(static_landmark_time, event_28d) ~ log2_easix_z + log2_siri_z +      age + sex + race_group + oasis_day1",32358,29155,3203,740,TRUE,1,27
+mimiciii,28-day,static_day1_admission_inception,static_joint_interaction,"Surv(followup_28d_days, event_28d) ~ log2_easix_z * log2_siri_z +      age + sex + race_group + oasis_day1",32385,29177,3208,745,FALSE,0,28
+mimiciii,28-day,static_day1_24h_landmark,static_joint_interaction,"Surv(static_landmark_time, event_28d) ~ log2_easix_z * log2_siri_z +      age + sex + race_group + oasis_day1",32358,29155,3203,740,TRUE,1,27
+mimiciii,28-day,static_day1_admission_inception,static_sirs_secondary,"Surv(followup_28d_days, event_28d) ~ sirs_day1 + age + sex +      race_group + oasis_day1",32385,0,32385,4085,FALSE,0,28
+mimiciii,28-day,static_day1_24h_landmark,static_sirs_secondary,"Surv(static_landmark_time, event_28d) ~ sirs_day1 + age + sex +      race_group + oasis_day1",32358,0,32358,4058,TRUE,1,27
+mimiciii,90-day,static_day1_admission_inception,static_easix,"Surv(followup_90d_days, event_90d) ~ log2_easix_z + age + sex +      race_group + oasis_day1",32385,25288,7097,1912,FALSE,0,90
+mimiciii,90-day,static_day1_24h_landmark,static_easix,"Surv(static_landmark_time, event_90d) ~ log2_easix_z + age +      sex + race_group + oasis_day1",32358,25272,7086,1901,TRUE,1,89
+mimiciii,90-day,static_day1_admission_inception,static_siri,"Surv(followup_90d_days, event_90d) ~ log2_siri_z + age + sex +      race_group + oasis_day1",32385,24710,7675,1900,FALSE,0,90
+mimiciii,90-day,static_day1_24h_landmark,static_siri,"Surv(static_landmark_time, event_90d) ~ log2_siri_z + age + sex +      race_group + oasis_day1",32358,24689,7669,1894,TRUE,1,89
+mimiciii,90-day,static_day1_admission_inception,static_joint,"Surv(followup_90d_days, event_90d) ~ log2_easix_z + log2_siri_z +      age + sex + race_group + oasis_day1",32385,29177,3208,967,FALSE,0,90
+mimiciii,90-day,static_day1_24h_landmark,static_joint,"Surv(static_landmark_time, event_90d) ~ log2_easix_z + log2_siri_z +      age + sex + race_group + oasis_day1",32358,29155,3203,962,TRUE,1,89
+mimiciii,90-day,static_day1_admission_inception,static_joint_interaction,"Surv(followup_90d_days, event_90d) ~ log2_easix_z * log2_siri_z +      age + sex + race_group + oasis_day1",32385,29177,3208,967,FALSE,0,90
+mimiciii,90-day,static_day1_24h_landmark,static_joint_interaction,"Surv(static_landmark_time, event_90d) ~ log2_easix_z * log2_siri_z +      age + sex + race_group + oasis_day1",32358,29155,3203,962,TRUE,1,89
+mimiciii,90-day,static_day1_admission_inception,static_sirs_secondary,"Surv(followup_90d_days, event_90d) ~ sirs_day1 + age + sex +      race_group + oasis_day1",32385,0,32385,5718,FALSE,0,90
+mimiciii,90-day,static_day1_24h_landmark,static_sirs_secondary,"Surv(static_landmark_time, event_90d) ~ sirs_day1 + age + sex +      race_group + oasis_day1",32358,0,32358,5691,TRUE,1,89
+mimiciv,28-day,icu_admission_inception,gbmtm_k3_d2_pruning,"Surv(followup_28d_days, event_28d) ~ trajectory_class + age +      sex + race_group + oasis_day1",2698,0,2698,877,FALSE,0,28
+mimiciv,28-day,day7_landmark,gbmtm_k3_d2_pruning,"Surv(analysis_time, event_28d) ~ trajectory_class + age + sex +      race_group + oasis_day1",1415,0,1415,448,TRUE,7,21
+mimiciv,90-day,icu_admission_inception,gbmtm_k3_d2_pruning,"Surv(followup_90d_days, event_90d) ~ trajectory_class + age +      sex + race_group + oasis_day1",2698,0,2698,1100,FALSE,0,90
+mimiciv,90-day,day7_landmark,gbmtm_k3_d2_pruning,"Surv(analysis_time, event_90d) ~ trajectory_class + age + sex +      race_group + oasis_day1",1415,0,1415,587,TRUE,7,83
+mimiciii,28-day,icu_admission_inception,gbmtm_k3_d2_pruning,"Surv(followup_28d_days, event_28d) ~ trajectory_class + age +      sex + race_group + oasis_day1",1327,0,1327,381,FALSE,0,28
+mimiciii,28-day,day7_landmark,gbmtm_k3_d2_pruning,"Surv(analysis_time, event_28d) ~ trajectory_class + age + sex +      race_group + oasis_day1",737,0,737,218,TRUE,7,21
+mimiciii,90-day,icu_admission_inception,gbmtm_k3_d2_pruning,"Surv(followup_90d_days, event_90d) ~ trajectory_class + age +      sex + race_group + oasis_day1",1327,0,1327,501,FALSE,0,90
+mimiciii,90-day,day7_landmark,gbmtm_k3_d2_pruning,"Surv(analysis_time, event_90d) ~ trajectory_class + age + sex +      race_group + oasis_day1",737,0,737,296,TRUE,7,83

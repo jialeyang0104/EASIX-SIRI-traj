@@ -1,0 +1,58 @@
+{
+  "seed": 20261111,
+  "train_n": 1888,
+  "internal_validation_n": 810,
+  "external_validation_n": 1327,
+  "patient_overlap_train_internal": 0,
+  "candidate_n": 55,
+  "eligible_n": 55,
+  "selector_counts": {
+    "l1": 40,
+    "shadow_random_forest": 31,
+    "rfecv": 30
+  },
+  "selected_features": [
+    "easix_day",
+    "siri_day",
+    "platelets_109_l",
+    "monocytes_harmonised",
+    "alt_mean",
+    "bilirubin_mean",
+    "creatinine_mean",
+    "bun_mean",
+    "ldh_mean",
+    "wbc_mean",
+    "platelet_mean",
+    "hematocrit_mean",
+    "pt_mean",
+    "ptt_mean",
+    "potassium_mean",
+    "bicarbonate_mean",
+    "aniongap_mean",
+    "phosphate_mean",
+    "lactate_mean",
+    "heart_rate_mean",
+    "baseexcess_mean",
+    "urine_hourly_mean"
+  ],
+  "design": "MIMIC-IV patient-level stratified 70/30; fixed MIMIC-III historical cross-version external validation",
+  "l1_best_C": {
+    "model__C": 0.1
+  },
+  "shadow_iterations": 40,
+  "shadow_threshold": "one-sided binomial p<0.05 / eligible feature count against strongest shadow",
+  "rfe_scoring": "five-fold macro one-vs-rest AUROC within IV training only",
+  "best_xgboost_params": {
+    "model__max_depth": 2,
+    "model__min_child_weight": 10,
+    "model__n_estimators": 200
+  },
+  "train_cv_auroc": 0.8924408166460944,
+  "preprocessing": "train-fold median imputation, train-fold empirical quantile normalisation; final refit on IV training only",
+  "bootstrap": "1000 stratified patient resamples, fixed model, percentile 95% intervals",
+  "versions": {
+    "sklearn": "1.9.0",
+    "xgboost": "3.3.0",
+    "shap": "0.52.0"
+  }
+}

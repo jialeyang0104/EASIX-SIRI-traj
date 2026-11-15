@@ -1,0 +1,7 @@
+dataset,analysis,origin_days,previous_risk_n,no_positive_icu_followup,n_landmark,unknown_icu_outcome,n_endpoint_known,icu_deaths,live_discharges
+mimiciv,static_day1_24h_landmark,1,51606,1,51605,79,51526,3421,48105
+mimiciv,day7_landmark,7,1415,0,1415,6,1409,347,1062
+mimiciv,assigned_day1_treatment,1,2698,0,2698,18,2680,596,2084
+mimiciii,static_day1_24h_landmark,1,32358,3,32355,21,32334,2299,30035
+mimiciii,day7_landmark,7,737,0,737,0,737,189,548
+mimiciii,assigned_day1_treatment,1,1327,0,1327,2,1325,319,1006

@@ -1,0 +1,3 @@
+dataset,n,check,max_absolute_log_coefficient_difference,tolerance,status
+mimiciv,1409,Fine-Gray coefficients: survival expansion versus cmprsk::crr,9.10382880192628e-15,0.001,PASS
+mimiciii,737,Fine-Gray coefficients: survival expansion versus cmprsk::crr,1.98521115657435e-07,0.001,PASS

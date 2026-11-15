@@ -1,0 +1,165 @@
+{
+  "source": "landmark-workflow/01_endpoints/aggregate/all_icu_flow_diagram_counts.csv",
+  "groups": [
+    {
+      "label": "Development cohort",
+      "cohorts": [
+        "mimiciv"
+      ],
+      "palette": "primary"
+    },
+    {
+      "label": "Historical cross-version cohort",
+      "cohorts": [
+        "mimiciii"
+      ],
+      "palette": "external"
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "mimiciv",
+      "label": "MIMIC-IV",
+      "nodes": [
+        {
+          "label": "All ICU stays",
+          "n": 94458,
+          "unit": "stays"
+        },
+        {
+          "label": "First ICU stay per patient",
+          "n": 65366,
+          "unit": "patients"
+        },
+        {
+          "label": "Age ≥18 years",
+          "n": 65366,
+          "unit": "patients"
+        },
+        {
+          "label": "ICU length of stay ≥24 h",
+          "n": 51838,
+          "unit": "patients"
+        },
+        {
+          "label": "Eligible parent cohort",
+          "n": 51658,
+          "unit": "patients"
+        }
+      ],
+      "exclusions": [
+        {
+          "label": "Subsequent ICU stays",
+          "n": 29092
+        },
+        {
+          "label": "Age <18 years",
+          "n": 0
+        },
+        {
+          "label": "ICU stay <24 h",
+          "n": 13528
+        },
+        {
+          "label": "Hospital stay <24 h",
+          "n": 180
+        }
+      ],
+      "analysis": {
+        "static_available": {
+          "easix": 14371,
+          "siri": 19084,
+          "joint": 7245
+        },
+        "static_models": {
+          "easix": 14340,
+          "siri": 19064,
+          "joint": 7230
+        },
+        "trajectory_assigned": 2698,
+        "trajectory_day7": 1415,
+        "static_icu_models": {
+          "easix": 14300,
+          "siri": 19027,
+          "joint": 7205
+        },
+        "trajectory_icu_day7": 1409
+      }
+    },
+    {
+      "id": "mimiciii",
+      "label": "MIMIC-III",
+      "nodes": [
+        {
+          "label": "All ICU stays",
+          "n": 61532,
+          "unit": "stays"
+        },
+        {
+          "label": "First ICU stay per patient",
+          "n": 46476,
+          "unit": "patients"
+        },
+        {
+          "label": "Age ≥18 years",
+          "n": 38509,
+          "unit": "patients"
+        },
+        {
+          "label": "ICU length of stay ≥24 h",
+          "n": 32551,
+          "unit": "patients"
+        },
+        {
+          "label": "Eligible parent cohort",
+          "n": 32385,
+          "unit": "patients"
+        }
+      ],
+      "exclusions": [
+        {
+          "label": "Subsequent ICU stays",
+          "n": 15056
+        },
+        {
+          "label": "Age <18 years",
+          "n": 7967
+        },
+        {
+          "label": "ICU stay <24 h",
+          "n": 5958
+        },
+        {
+          "label": "Hospital stay <24 h",
+          "n": 166
+        }
+      ],
+      "analysis": {
+        "static_available": {
+          "easix": 7097,
+          "siri": 7675,
+          "joint": 3208
+        },
+        "static_models": {
+          "easix": 7086,
+          "siri": 7669,
+          "joint": 3203
+        },
+        "trajectory_assigned": 1327,
+        "trajectory_day7": 737,
+        "static_icu_models": {
+          "easix": 7077,
+          "siri": 7661,
+          "joint": 3197
+        },
+        "trajectory_icu_day7": 737
+      }
+    }
+  ],
+  "style": {
+    "width_mm": 183,
+    "dpi": 300,
+    "font_size_pt": 8,
+    "exclusion_font_size_pt": 8
+  }
+}

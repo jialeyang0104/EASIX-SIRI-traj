@@ -1,0 +1,99 @@
+dataset,flow,horizon,from_hour,to_hour,origin,from_category,to_category,stays,cohort_stays
+mimiciv,icu_disposition,7,1,3,Class 1,Class 1,Class 1,863,2698
+mimiciv,icu_disposition,7,1,3,Class 1,Class 1,icu_death,9,2698
+mimiciv,icu_disposition,7,1,3,Class 1,Class 1,live_exit,134,2698
+mimiciv,icu_disposition,7,1,3,Class 1,Class 1,unknown,2,2698
+mimiciv,icu_disposition,7,1,3,Class 2,Class 2,Class 2,885,2698
+mimiciv,icu_disposition,7,1,3,Class 2,Class 2,icu_death,14,2698
+mimiciv,icu_disposition,7,1,3,Class 2,Class 2,live_exit,77,2698
+mimiciv,icu_disposition,7,1,3,Class 2,Class 2,unknown,1,2698
+mimiciv,icu_disposition,7,1,3,Class 3,Class 3,Class 3,607,2698
+mimiciv,icu_disposition,7,1,3,Class 3,Class 3,icu_death,36,2698
+mimiciv,icu_disposition,7,1,3,Class 3,Class 3,live_exit,69,2698
+mimiciv,icu_disposition,7,1,3,Class 3,Class 3,unknown,1,2698
+mimiciv,icu_disposition,7,3,5,Class 1,Class 1,Class 1,646,2698
+mimiciv,icu_disposition,7,3,5,Class 1,Class 1,icu_death,17,2698
+mimiciv,icu_disposition,7,3,5,Class 1,Class 1,live_exit,199,2698
+mimiciv,icu_disposition,7,3,5,Class 1,Class 1,unknown,1,2698
+mimiciv,icu_disposition,7,3,5,Class 1,icu_death,icu_death,9,2698
+mimiciv,icu_disposition,7,3,5,Class 1,live_exit,live_exit,134,2698
+mimiciv,icu_disposition,7,3,5,Class 1,unknown,unknown,2,2698
+mimiciv,icu_disposition,7,3,5,Class 2,Class 2,Class 2,721,2698
+mimiciv,icu_disposition,7,3,5,Class 2,Class 2,icu_death,21,2698
+mimiciv,icu_disposition,7,3,5,Class 2,Class 2,live_exit,140,2698
+mimiciv,icu_disposition,7,3,5,Class 2,Class 2,unknown,3,2698
+mimiciv,icu_disposition,7,3,5,Class 2,icu_death,icu_death,14,2698
+mimiciv,icu_disposition,7,3,5,Class 2,live_exit,live_exit,77,2698
+mimiciv,icu_disposition,7,3,5,Class 2,unknown,unknown,1,2698
+mimiciv,icu_disposition,7,3,5,Class 3,Class 3,Class 3,477,2698
+mimiciv,icu_disposition,7,3,5,Class 3,Class 3,icu_death,50,2698
+mimiciv,icu_disposition,7,3,5,Class 3,Class 3,live_exit,79,2698
+mimiciv,icu_disposition,7,3,5,Class 3,Class 3,unknown,1,2698
+mimiciv,icu_disposition,7,3,5,Class 3,icu_death,icu_death,36,2698
+mimiciv,icu_disposition,7,3,5,Class 3,live_exit,live_exit,69,2698
+mimiciv,icu_disposition,7,3,5,Class 3,unknown,unknown,1,2698
+mimiciv,icu_disposition,7,5,7,Class 1,Class 1,Class 1,484,2698
+mimiciv,icu_disposition,7,5,7,Class 1,Class 1,icu_death,14,2698
+mimiciv,icu_disposition,7,5,7,Class 1,Class 1,live_exit,147,2698
+mimiciv,icu_disposition,7,5,7,Class 1,Class 1,unknown,1,2698
+mimiciv,icu_disposition,7,5,7,Class 1,icu_death,icu_death,26,2698
+mimiciv,icu_disposition,7,5,7,Class 1,live_exit,live_exit,333,2698
+mimiciv,icu_disposition,7,5,7,Class 1,unknown,unknown,3,2698
+mimiciv,icu_disposition,7,5,7,Class 2,Class 2,Class 2,566,2698
+mimiciv,icu_disposition,7,5,7,Class 2,Class 2,icu_death,44,2698
+mimiciv,icu_disposition,7,5,7,Class 2,Class 2,live_exit,110,2698
+mimiciv,icu_disposition,7,5,7,Class 2,Class 2,unknown,1,2698
+mimiciv,icu_disposition,7,5,7,Class 2,icu_death,icu_death,35,2698
+mimiciv,icu_disposition,7,5,7,Class 2,live_exit,live_exit,217,2698
+mimiciv,icu_disposition,7,5,7,Class 2,unknown,unknown,4,2698
+mimiciv,icu_disposition,7,5,7,Class 3,Class 3,Class 3,365,2698
+mimiciv,icu_disposition,7,5,7,Class 3,Class 3,icu_death,44,2698
+mimiciv,icu_disposition,7,5,7,Class 3,Class 3,live_exit,67,2698
+mimiciv,icu_disposition,7,5,7,Class 3,Class 3,unknown,1,2698
+mimiciv,icu_disposition,7,5,7,Class 3,icu_death,icu_death,86,2698
+mimiciv,icu_disposition,7,5,7,Class 3,live_exit,live_exit,148,2698
+mimiciv,icu_disposition,7,5,7,Class 3,unknown,unknown,2,2698
+mimiciii,icu_disposition,7,1,3,Class 1,Class 1,Class 1,464,1327
+mimiciii,icu_disposition,7,1,3,Class 1,Class 1,icu_death,3,1327
+mimiciii,icu_disposition,7,1,3,Class 1,Class 1,live_exit,53,1327
+mimiciii,icu_disposition,7,1,3,Class 2,Class 2,Class 2,401,1327
+mimiciii,icu_disposition,7,1,3,Class 2,Class 2,icu_death,6,1327
+mimiciii,icu_disposition,7,1,3,Class 2,Class 2,live_exit,34,1327
+mimiciii,icu_disposition,7,1,3,Class 2,Class 2,unknown,1,1327
+mimiciii,icu_disposition,7,1,3,Class 3,Class 3,Class 3,317,1327
+mimiciii,icu_disposition,7,1,3,Class 3,Class 3,icu_death,23,1327
+mimiciii,icu_disposition,7,1,3,Class 3,Class 3,live_exit,25,1327
+mimiciii,icu_disposition,7,3,5,Class 1,Class 1,Class 1,356,1327
+mimiciii,icu_disposition,7,3,5,Class 1,Class 1,icu_death,8,1327
+mimiciii,icu_disposition,7,3,5,Class 1,Class 1,live_exit,100,1327
+mimiciii,icu_disposition,7,3,5,Class 1,icu_death,icu_death,3,1327
+mimiciii,icu_disposition,7,3,5,Class 1,live_exit,live_exit,53,1327
+mimiciii,icu_disposition,7,3,5,Class 2,Class 2,Class 2,320,1327
+mimiciii,icu_disposition,7,3,5,Class 2,Class 2,icu_death,13,1327
+mimiciii,icu_disposition,7,3,5,Class 2,Class 2,live_exit,68,1327
+mimiciii,icu_disposition,7,3,5,Class 2,icu_death,icu_death,6,1327
+mimiciii,icu_disposition,7,3,5,Class 2,live_exit,live_exit,34,1327
+mimiciii,icu_disposition,7,3,5,Class 2,unknown,unknown,1,1327
+mimiciii,icu_disposition,7,3,5,Class 3,Class 3,Class 3,262,1327
+mimiciii,icu_disposition,7,3,5,Class 3,Class 3,icu_death,19,1327
+mimiciii,icu_disposition,7,3,5,Class 3,Class 3,live_exit,35,1327
+mimiciii,icu_disposition,7,3,5,Class 3,Class 3,unknown,1,1327
+mimiciii,icu_disposition,7,3,5,Class 3,icu_death,icu_death,23,1327
+mimiciii,icu_disposition,7,3,5,Class 3,live_exit,live_exit,25,1327
+mimiciii,icu_disposition,7,5,7,Class 1,Class 1,Class 1,265,1327
+mimiciii,icu_disposition,7,5,7,Class 1,Class 1,icu_death,15,1327
+mimiciii,icu_disposition,7,5,7,Class 1,Class 1,live_exit,76,1327
+mimiciii,icu_disposition,7,5,7,Class 1,icu_death,icu_death,11,1327
+mimiciii,icu_disposition,7,5,7,Class 1,live_exit,live_exit,153,1327
+mimiciii,icu_disposition,7,5,7,Class 2,Class 2,Class 2,258,1327
+mimiciii,icu_disposition,7,5,7,Class 2,Class 2,icu_death,25,1327
+mimiciii,icu_disposition,7,5,7,Class 2,Class 2,live_exit,37,1327
+mimiciii,icu_disposition,7,5,7,Class 2,icu_death,icu_death,19,1327
+mimiciii,icu_disposition,7,5,7,Class 2,live_exit,live_exit,102,1327
+mimiciii,icu_disposition,7,5,7,Class 2,unknown,unknown,1,1327
+mimiciii,icu_disposition,7,5,7,Class 3,Class 3,Class 3,214,1327
+mimiciii,icu_disposition,7,5,7,Class 3,Class 3,icu_death,18,1327
+mimiciii,icu_disposition,7,5,7,Class 3,Class 3,live_exit,30,1327
+mimiciii,icu_disposition,7,5,7,Class 3,icu_death,icu_death,42,1327
+mimiciii,icu_disposition,7,5,7,Class 3,live_exit,live_exit,60,1327
+mimiciii,icu_disposition,7,5,7,Class 3,unknown,unknown,1,1327

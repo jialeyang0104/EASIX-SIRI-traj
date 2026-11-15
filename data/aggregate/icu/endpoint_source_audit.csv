@@ -1,0 +1,3 @@
+dataset,parent_n,valid_exact_death,invalid_exact_before_admission,icu_deaths,live_discharges,unknown_icu_outcome,missing_outtime,invalid_icu_interval
+mimiciv,51658,5368,0,3472,48106,80,0,0
+mimiciii,32385,3416,4,2324,30038,23,0,0

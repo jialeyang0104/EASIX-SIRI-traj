@@ -1,0 +1,21 @@
+dataset,step_order,step,n,excluded_from_previous,stage_type,parent_stage,stage_id
+mimiciv,1,All ICU stays,94458,,sequential,,cohort_1
+mimiciv,2,First ICU stay per patient,65366,29092,sequential,All ICU stays,cohort_2
+mimiciv,3,Age >=18 years,65366,0,sequential,First ICU stay per patient,cohort_3
+mimiciv,4,ICU length of stay >=24 h,51838,13528,sequential,Age >=18 years,cohort_4
+mimiciv,5,Hospital length of stay >=24 h,51658,180,sequential,ICU length of stay >=24 h,cohort_5
+mimiciv,6,Day 1 EASIX available,14371,,branch,Hospital length of stay >=24 h,static_easix
+mimiciv,7,Day 1 SIRI available,19084,,branch,Hospital length of stay >=24 h,static_siri
+mimiciv,8,Day 1 EASIX and SIRI jointly available,7245,,branch,Hospital length of stay >=24 h,static_joint
+mimiciv,9,D1-D7 trajectory eligible,2698,,branch,Hospital length of stay >=24 h,trajectory
+mimiciv,10,GBMTM classes analysed,2698,,analysis,D1-D7 trajectory eligible,gbmtm
+mimiciii,1,All ICU stays,61532,,sequential,,cohort_1
+mimiciii,2,First ICU stay per patient,46476,15056,sequential,All ICU stays,cohort_2
+mimiciii,3,Age >=18 years,38509,7967,sequential,First ICU stay per patient,cohort_3
+mimiciii,4,ICU length of stay >=24 h,32551,5958,sequential,Age >=18 years,cohort_4
+mimiciii,5,Hospital length of stay >=24 h,32385,166,sequential,ICU length of stay >=24 h,cohort_5
+mimiciii,6,Day 1 EASIX available,7097,,branch,Hospital length of stay >=24 h,static_easix
+mimiciii,7,Day 1 SIRI available,7675,,branch,Hospital length of stay >=24 h,static_siri
+mimiciii,8,Day 1 EASIX and SIRI jointly available,3208,,branch,Hospital length of stay >=24 h,static_joint
+mimiciii,9,D1-D7 trajectory eligible,1327,,branch,Hospital length of stay >=24 h,trajectory
+mimiciii,10,GBMTM classes analysed,1327,,analysis,D1-D7 trajectory eligible,gbmtm

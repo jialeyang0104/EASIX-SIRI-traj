@@ -1,0 +1,19 @@
+Package: easixsiricriticallyill
+Type: Project
+Title: EASIX and SIRI Critically Ill ICU Analysis
+Version: 1.0.0
+Authors@R: person("Jiale", "Yang", role = "aut")
+Description: Reproducible R analysis environment for the diagnosis-unrestricted EASIX and SIRI critically ill ICU cohort study.
+License: file LICENSE
+Encoding: UTF-8
+Imports:
+    cluster,
+    data.table,
+    gbmt,
+    lmtest,
+    mclust,
+    pROC,
+    sandwich,
+    survival,
+    cmprsk,
+    jsonlite

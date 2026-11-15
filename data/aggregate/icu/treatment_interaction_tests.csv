@@ -1,0 +1,13 @@
+dataset,exposure,contrast,n,icu_deaths,wald_chisq,df,interaction_p,estimable_classes,adjustment
+mimiciv,nee_any_24h,Recorded vs no recorded NEE,2680,596,6.55930125234524,2,0.0376414054320335,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciv,nee_high,>0.3 vs 0<NEE<=0.3 microgram/kg/min,1204,327,5.84620480857714,2,0.0537666224828788,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciv,fluid_high,>2000 vs <=2000 mL,2315,499,3.11886732202645,2,0.210255113156282,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciv,fluid_kg_high,>30 vs <=30 mL/kg,2298,499,3.11457299386963,2,0.21070705040063,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciv,documented_mv_24h,Recorded vs no recorded MV,2680,596,3.08821948788877,2,0.213501857963882,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciv,documented_crrt_24h,Recorded vs no recorded CRRT,2680,596,4.70790686246888,2,0.094992871101473,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciii,nee_any_24h,Recorded vs no recorded NEE,1325,319,7.50874665200525,2,0.0234151196590107,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciii,nee_high,>0.3 vs 0<NEE<=0.3 microgram/kg/min,552,169,1.5844076221645,2,0.452845708396629,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciii,fluid_high,>2000 vs <=2000 mL,1306,314,0.605432270664176,2,0.738808788318354,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciii,fluid_kg_high,>30 vs <=30 mL/kg,1303,314,3.72916112428271,2,0.154961192846698,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciii,documented_mv_24h,Recorded vs no recorded MV,1325,319,1.4223539991073,2,0.491065872870656,1;2;3,OASIS without MV points + age + sex + race/ethnicity
+mimiciii,documented_crrt_24h,Recorded vs no recorded CRRT,1325,319,0.344153351144173,1,0.557441583747163,2;3,OASIS without MV points + age + sex + race/ethnicity

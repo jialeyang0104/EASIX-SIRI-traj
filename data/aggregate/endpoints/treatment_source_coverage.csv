@@ -1,0 +1,3 @@
+dataset,assigned_n,extracted_n,input_documented,output_documented,io_documented,weight_valid,recorded_mv,recorded_crrt,mv_source_no_row,crrt_source_no_row,nee_missing
+mimiciv,2698,2698,2363,2646,2332,2678,1588,139,280,2549,0
+mimiciii,1327,1327,1316,1309,1308,1323,817,40,510,1287,0

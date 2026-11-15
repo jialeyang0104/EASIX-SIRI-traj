@@ -1,0 +1,73 @@
+dataset,panel,trajectory_class,trajectory_label,time_scale,time_label,time_start_h,time_end_h,metric,metric_label,unit,n_at_risk,n_observed,missing_pct,center,p25,p75,ci_lower,ci_upper,center_statistic,spread_type,source_granularity
+mimiciv,C,1,Class 1,ICU hours 0–24,0–6 h,0,6,nee_any,Any NEE use,proportion (0–1),1008.0,1008,0.0,0.2728174603,0.0,1.0,0.2462222677,0.3011376512,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,1,Class 1,ICU hours 0–24,6–12 h,6,12,nee_any,Any NEE use,proportion (0–1),1008.0,1008,0.0,0.2787698413,0.0,1.0,0.2519688359,0.3072506484,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,1,Class 1,ICU hours 0–24,12–18 h,12,18,nee_any,Any NEE use,proportion (0–1),1008.0,1008,0.0,0.2916666667,0.0,1.0,0.2644402442,0.3204749653,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,1,Class 1,ICU hours 0–24,18–24 h,18,24,nee_any,Any NEE use,proportion (0–1),1008.0,1008,0.0,0.2817460317,0.0,1.0,0.254844386,0.310304881,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,2,Class 2,ICU hours 0–24,0–6 h,0,6,nee_any,Any NEE use,proportion (0–1),977.0,977,0.0,0.4002047083,0.0,1.0,0.3699317124,0.4312593993,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,2,Class 2,ICU hours 0–24,6–12 h,6,12,nee_any,Any NEE use,proportion (0–1),977.0,977,0.0,0.4114636643,0.0,1.0,0.381011985,0.4426088475,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,2,Class 2,ICU hours 0–24,12–18 h,12,18,nee_any,Any NEE use,proportion (0–1),977.0,977,0.0,0.4196519959,0.0,1.0,0.3890807883,0.4508525683,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,2,Class 2,ICU hours 0–24,18–24 h,18,24,nee_any,Any NEE use,proportion (0–1),977.0,977,0.0,0.4237461617,0.0,1.0,0.3931184542,0.4549711645,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,3,Class 3,ICU hours 0–24,0–6 h,0,6,nee_any,Any NEE use,proportion (0–1),713.0,713,0.0,0.3688639551,0.0,1.0,0.3342388567,0.4048945351,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,3,Class 3,ICU hours 0–24,6–12 h,6,12,nee_any,Any NEE use,proportion (0–1),713.0,713,0.0,0.4137447405,0.0,1.0,0.3781506143,0.4502633279,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,3,Class 3,ICU hours 0–24,12–18 h,12,18,nee_any,Any NEE use,proportion (0–1),713.0,713,0.0,0.4165497896,0.0,1.0,0.3809054632,0.4530885134,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,C,3,Class 3,ICU hours 0–24,18–24 h,18,24,nee_any,Any NEE use,proportion (0–1),713.0,713,0.0,0.4263674614,0.0,1.0,0.3905568241,0.4629672729,proportion,95% Wilson CI,NEE-positive intervals
+mimiciv,D,1,Class 1,ICU hours 0–24,0–6 h,0,6,nee_max,Maximum NEE dose,µg/kg/min,1008.0,275,72.71825397,0.15,0.08,0.3007,,,median,IQR,NEE-positive intervals only
+mimiciv,D,1,Class 1,ICU hours 0–24,6–12 h,6,12,nee_max,Maximum NEE dose,µg/kg/min,1008.0,281,72.12301587,0.1201,0.0799,0.3001,,,median,IQR,NEE-positive intervals only
+mimiciv,D,1,Class 1,ICU hours 0–24,12–18 h,12,18,nee_max,Maximum NEE dose,µg/kg/min,1008.0,294,70.83333333,0.11085,0.0601,0.240225,,,median,IQR,NEE-positive intervals only
+mimiciv,D,1,Class 1,ICU hours 0–24,18–24 h,18,24,nee_max,Maximum NEE dose,µg/kg/min,1008.0,284,71.82539683,0.1001,0.0501,0.24965,,,median,IQR,NEE-positive intervals only
+mimiciv,D,2,Class 2,ICU hours 0–24,0–6 h,0,6,nee_max,Maximum NEE dose,µg/kg/min,977.0,391,59.97952917,0.2,0.1,0.3942,,,median,IQR,NEE-positive intervals only
+mimiciv,D,2,Class 2,ICU hours 0–24,6–12 h,6,12,nee_max,Maximum NEE dose,µg/kg/min,977.0,402,58.85363357,0.19965,0.1,0.399025,,,median,IQR,NEE-positive intervals only
+mimiciv,D,2,Class 2,ICU hours 0–24,12–18 h,12,18,nee_max,Maximum NEE dose,µg/kg/min,977.0,410,58.03480041,0.17735,0.09,0.340625,,,median,IQR,NEE-positive intervals only
+mimiciv,D,2,Class 2,ICU hours 0–24,18–24 h,18,24,nee_max,Maximum NEE dose,µg/kg/min,977.0,414,57.62538383,0.1601,0.080025,0.300775,,,median,IQR,NEE-positive intervals only
+mimiciv,D,3,Class 3,ICU hours 0–24,0–6 h,0,6,nee_max,Maximum NEE dose,µg/kg/min,713.0,263,63.11360449,0.2301,0.1001,0.4734,,,median,IQR,NEE-positive intervals only
+mimiciv,D,3,Class 3,ICU hours 0–24,6–12 h,6,12,nee_max,Maximum NEE dose,µg/kg/min,713.0,295,58.62552595,0.2701,0.1304,0.50105,,,median,IQR,NEE-positive intervals only
+mimiciv,D,3,Class 3,ICU hours 0–24,12–18 h,12,18,nee_max,Maximum NEE dose,µg/kg/min,713.0,297,58.34502104,0.2612,0.1433,0.5026,,,median,IQR,NEE-positive intervals only
+mimiciv,D,3,Class 3,ICU hours 0–24,18–24 h,18,24,nee_max,Maximum NEE dose,µg/kg/min,713.0,304,57.36325386,0.251,0.12,0.4549,,,median,IQR,NEE-positive intervals only
+mimiciv,E,1,Class 1,ICU hours 0–24,0–6 h,0,6,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,1008.0,1002,0.5952380952,0.9541212787,0.0,11.20804806,,,median,IQR,zero if no audited event
+mimiciv,E,1,Class 1,ICU hours 0–24,6–12 h,6,12,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,1008.0,1002,0.5952380952,1.332108086,0.0,10.56685446,,,median,IQR,zero if no audited event
+mimiciv,E,1,Class 1,ICU hours 0–24,12–18 h,12,18,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,1008.0,1002,0.5952380952,1.253930855,0.0,8.750184375,,,median,IQR,zero if no audited event
+mimiciv,E,1,Class 1,ICU hours 0–24,18–24 h,18,24,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,1008.0,1002,0.5952380952,0.6937604779,0.0,6.758851936,,,median,IQR,zero if no audited event
+mimiciv,E,2,Class 2,ICU hours 0–24,0–6 h,0,6,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,977.0,974,0.307062436,0.8905197221,0.0,11.47352589,,,median,IQR,zero if no audited event
+mimiciv,E,2,Class 2,ICU hours 0–24,6–12 h,6,12,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,977.0,974,0.307062436,1.162734797,0.0,8.936046849,,,median,IQR,zero if no audited event
+mimiciv,E,2,Class 2,ICU hours 0–24,12–18 h,12,18,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,977.0,974,0.307062436,0.8688283744,0.0,7.189987265,,,median,IQR,zero if no audited event
+mimiciv,E,2,Class 2,ICU hours 0–24,18–24 h,18,24,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,977.0,974,0.307062436,0.7716604205,0.0,5.933246151,,,median,IQR,zero if no audited event
+mimiciv,E,3,Class 3,ICU hours 0–24,0–6 h,0,6,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,713.0,711,0.2805049088,2.002562433,0.0,14.70397744,,,median,IQR,zero if no audited event
+mimiciv,E,3,Class 3,ICU hours 0–24,6–12 h,6,12,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,713.0,711,0.2805049088,2.670721452,0.2589559878,14.17683211,,,median,IQR,zero if no audited event
+mimiciv,E,3,Class 3,ICU hours 0–24,12–18 h,12,18,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,713.0,710,0.4207573633,1.990820454,0.2741930163,10.65359564,,,median,IQR,zero if no audited event
+mimiciv,E,3,Class 3,ICU hours 0–24,18–24 h,18,24,audited_iv_ml_kg,Audited IV fluid amount,mL/kg,713.0,710,0.4207573633,1.461382268,0.2730755474,9.013392751,,,median,IQR,zero if no audited event
+mimiciv,F,1,Class 1,ICU hours 0–24,0–6 h,0,6,map_median,MAP median,mmHg,1008.0,1000,0.7936507937,77.0,69.0,86.0,,,median,IQR,observed same-interval measurements
+mimiciv,F,1,Class 1,ICU hours 0–24,6–12 h,6,12,map_median,MAP median,mmHg,1008.0,1004,0.3968253968,75.0,68.5,84.0,,,median,IQR,observed same-interval measurements
+mimiciv,F,1,Class 1,ICU hours 0–24,12–18 h,12,18,map_median,MAP median,mmHg,1008.0,1004,0.3968253968,75.5,69.0,84.0625,,,median,IQR,observed same-interval measurements
+mimiciv,F,1,Class 1,ICU hours 0–24,18–24 h,18,24,map_median,MAP median,mmHg,1008.0,1004,0.3968253968,76.0,69.0,84.5,,,median,IQR,observed same-interval measurements
+mimiciv,F,2,Class 2,ICU hours 0–24,0–6 h,0,6,map_median,MAP median,mmHg,977.0,967,1.023541453,75.5,68.0,83.0,,,median,IQR,observed same-interval measurements
+mimiciv,F,2,Class 2,ICU hours 0–24,6–12 h,6,12,map_median,MAP median,mmHg,977.0,973,0.4094165814,74.0,67.0,82.0,,,median,IQR,observed same-interval measurements
+mimiciv,F,2,Class 2,ICU hours 0–24,12–18 h,12,18,map_median,MAP median,mmHg,977.0,972,0.5117707267,74.0,68.0,82.0,,,median,IQR,observed same-interval measurements
+mimiciv,F,2,Class 2,ICU hours 0–24,18–24 h,18,24,map_median,MAP median,mmHg,977.0,972,0.5117707267,74.0,68.0,81.5,,,median,IQR,observed same-interval measurements
+mimiciv,F,3,Class 3,ICU hours 0–24,0–6 h,0,6,map_median,MAP median,mmHg,713.0,702,1.542776999,75.5,67.0,85.375,,,median,IQR,observed same-interval measurements
+mimiciv,F,3,Class 3,ICU hours 0–24,6–12 h,6,12,map_median,MAP median,mmHg,713.0,709,0.5610098177,74.75,68.5,83.0,,,median,IQR,observed same-interval measurements
+mimiciv,F,3,Class 3,ICU hours 0–24,12–18 h,12,18,map_median,MAP median,mmHg,713.0,709,0.5610098177,74.5,68.5,82.5,,,median,IQR,observed same-interval measurements
+mimiciv,F,3,Class 3,ICU hours 0–24,18–24 h,18,24,map_median,MAP median,mmHg,713.0,709,0.5610098177,74.5,68.0,82.0,,,median,IQR,observed same-interval measurements
+mimiciv,,1,Class 1,ICU hours 0–24,0–6 h,0,6,urine_output_ml_kg_h,,mL/kg/h,1008.0,896,11.11111111,0.9422125423,0.5030487805,1.736556268,,,median,IQR,
+mimiciv,,1,Class 1,ICU hours 0–24,0–6 h,0,6,lactate_median,,mmol/L,1008.0,631,37.40079365,1.6,1.2,2.3,,,median,IQR,
+mimiciv,,1,Class 1,ICU hours 0–24,6–12 h,6,12,urine_output_ml_kg_h,,mL/kg/h,1008.0,942,6.547619048,0.7631025365,0.4481794237,1.431026018,,,median,IQR,
+mimiciv,,1,Class 1,ICU hours 0–24,6–12 h,6,12,lactate_median,,mmol/L,1008.0,393,61.01190476,1.6,1.2,2.3,,,median,IQR,
+mimiciv,,1,Class 1,ICU hours 0–24,12–18 h,12,18,urine_output_ml_kg_h,,mL/kg/h,1008.0,941,6.646825397,0.7705856451,0.4366812227,1.30260521,,,median,IQR,
+mimiciv,,1,Class 1,ICU hours 0–24,12–18 h,12,18,lactate_median,,mmol/L,1008.0,322,68.05555556,1.55,1.1125,2.3,,,median,IQR,
+mimiciv,,1,Class 1,ICU hours 0–24,18–24 h,18,24,urine_output_ml_kg_h,,mL/kg/h,1008.0,944,6.349206349,0.7907236909,0.4700929363,1.358674624,,,median,IQR,
+mimiciv,,1,Class 1,ICU hours 0–24,18–24 h,18,24,lactate_median,,mmol/L,1008.0,296,70.63492063,1.5,1.2,2.2,,,median,IQR,
+mimiciv,,2,Class 2,ICU hours 0–24,0–6 h,0,6,urine_output_ml_kg_h,,mL/kg/h,977.0,821,15.96724667,0.6028022157,0.2912621359,1.163003663,,,median,IQR,
+mimiciv,,2,Class 2,ICU hours 0–24,0–6 h,0,6,lactate_median,,mmol/L,977.0,746,23.64380757,2.3,1.5,3.6,,,median,IQR,
+mimiciv,,2,Class 2,ICU hours 0–24,6–12 h,6,12,urine_output_ml_kg_h,,mL/kg/h,977.0,860,11.97543501,0.546041504,0.2691252588,1.07697883,,,median,IQR,
+mimiciv,,2,Class 2,ICU hours 0–24,6–12 h,6,12,lactate_median,,mmol/L,977.0,566,42.06755374,2.15,1.5,3.4,,,median,IQR,
+mimiciv,,2,Class 2,ICU hours 0–24,12–18 h,12,18,urine_output_ml_kg_h,,mL/kg/h,977.0,866,11.36131013,0.5564692983,0.2624634853,1.049000163,,,median,IQR,
+mimiciv,,2,Class 2,ICU hours 0–24,12–18 h,12,18,lactate_median,,mmol/L,977.0,493,49.53940635,2.2,1.4,3.35,,,median,IQR,
+mimiciv,,2,Class 2,ICU hours 0–24,18–24 h,18,24,urine_output_ml_kg_h,,mL/kg/h,977.0,881,9.825997953,0.531107739,0.271273558,1.021021021,,,median,IQR,
+mimiciv,,2,Class 2,ICU hours 0–24,18–24 h,18,24,lactate_median,,mmol/L,977.0,446,54.35005118,2.1,1.4,3.1,,,median,IQR,
+mimiciv,,3,Class 3,ICU hours 0–24,0–6 h,0,6,urine_output_ml_kg_h,,mL/kg/h,713.0,607,14.86676017,0.5019120459,0.184491468,1.147030031,,,median,IQR,
+mimiciv,,3,Class 3,ICU hours 0–24,0–6 h,0,6,lactate_median,,mmol/L,713.0,519,27.20897616,2.8,1.7,5.0,,,median,IQR,
+mimiciv,,3,Class 3,ICU hours 0–24,6–12 h,6,12,urine_output_ml_kg_h,,mL/kg/h,713.0,644,9.677419355,0.503579999,0.1794901704,1.025523159,,,median,IQR,
+mimiciv,,3,Class 3,ICU hours 0–24,6–12 h,6,12,lactate_median,,mmol/L,713.0,429,39.83169705,3.0,1.8,5.3,,,median,IQR,
+mimiciv,,3,Class 3,ICU hours 0–24,12–18 h,12,18,urine_output_ml_kg_h,,mL/kg/h,713.0,633,11.22019635,0.4675273865,0.147149938,0.9535160906,,,median,IQR,
+mimiciv,,3,Class 3,ICU hours 0–24,12–18 h,12,18,lactate_median,,mmol/L,713.0,397,44.3197756,3.0,1.8,5.2,,,median,IQR,
+mimiciv,,3,Class 3,ICU hours 0–24,18–24 h,18,24,urine_output_ml_kg_h,,mL/kg/h,713.0,634,11.0799439,0.4948542214,0.1547064069,0.9944276694,,,median,IQR,
+mimiciv,,3,Class 3,ICU hours 0–24,18–24 h,18,24,lactate_median,,mmol/L,713.0,366,48.66760168,2.95,1.8,5.1,,,median,IQR,

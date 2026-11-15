@@ -1,0 +1,3 @@
+dataset,event,origin_admission_day,maximum_admission_day,n,icu_deaths,live_discharges,right_censored,gray_chisq,df,p_value
+mimiciv,1,7,60,1409,346,1054,9,28.1260395265329,2,7.80743033779174e-07
+mimiciii,1,7,60,737,186,546,5,16.9576743317741,2,0.000207820222711042

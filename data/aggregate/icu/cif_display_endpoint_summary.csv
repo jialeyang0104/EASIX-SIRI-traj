@@ -1,0 +1,7 @@
+dataset,trajectory_class,n,original_curve_end_day,plotted_end_day,cif_at_day60,ci_low,ci_high,icu_deaths_by_day60,live_discharges_by_day60,still_in_icu_at_day60,numerical_check
+mimiciv,1,482,69.8047453703704,60,0.159751037344399,0.129827796312066,0.195758153143644,77,403,2,Day-60 CIF and variance match independently administratively censored cuminc
+mimiciv,2,564,72.6306134259259,60,0.292553191489363,0.256708933745723,0.332190568149694,165,396,3,Day-60 CIF and variance match independently administratively censored cuminc
+mimiciv,3,363,159.666805555556,60,0.286501377410469,0.242637467947842,0.336379124119977,104,255,4,Day-60 CIF and variance match independently administratively censored cuminc
+mimiciii,1,265,97.2669675925926,60,0.169811320754717,0.129444345786358,0.221076516083264,45,219,1,Day-60 CIF and variance match independently administratively censored cuminc
+mimiciii,2,258,66.9361689814815,60,0.263565891472868,0.213497774895318,0.322757722031403,68,189,1,Day-60 CIF and variance match independently administratively censored cuminc
+mimiciii,3,214,81.1663541666667,60,0.341121495327103,0.281334336046904,0.409573102245917,73,138,3,Day-60 CIF and variance match independently administratively censored cuminc

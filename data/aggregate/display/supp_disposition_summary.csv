@@ -1,0 +1,9 @@
+dataset,day,cohort_n,resident,live_icu_exit,icu_death,unknown
+mimiciv,1,2698,2698,0,0,0
+mimiciv,3,2698,2355,280,59,4
+mimiciv,5,2698,1844,698,147,9
+mimiciv,7,2698,1415,1022,249,12
+mimiciii,1,1327,1327,0,0,0
+mimiciii,3,1327,1182,112,32,1
+mimiciii,5,1327,938,315,72,2
+mimiciii,7,1327,737,458,130,2

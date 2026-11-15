@@ -1,0 +1,131 @@
+trajectory_class,exposure_level,outcome,n,exposure,horizon,dataset
+1,High,Alive,158,treatment_intensity,28,mimiciv
+1,High,Died,47,treatment_intensity,28,mimiciv
+1,Intensity unknown,Alive,47,treatment_intensity,28,mimiciv
+1,Intensity unknown,Died,16,treatment_intensity,28,mimiciv
+1,Low,Alive,175,treatment_intensity,28,mimiciv
+1,Low,Died,32,treatment_intensity,28,mimiciv
+1,Max,Alive,80,treatment_intensity,28,mimiciv
+1,Max,Died,32,treatment_intensity,28,mimiciv
+1,Medium,Alive,347,treatment_intensity,28,mimiciv
+1,Medium,Died,74,treatment_intensity,28,mimiciv
+2,High,Alive,155,treatment_intensity,28,mimiciv
+2,High,Died,77,treatment_intensity,28,mimiciv
+2,Intensity unknown,Alive,32,treatment_intensity,28,mimiciv
+2,Intensity unknown,Died,21,treatment_intensity,28,mimiciv
+2,Low,Alive,88,treatment_intensity,28,mimiciv
+2,Low,Died,47,treatment_intensity,28,mimiciv
+2,Max,Alive,130,treatment_intensity,28,mimiciv
+2,Max,Died,82,treatment_intensity,28,mimiciv
+2,Medium,Alive,206,treatment_intensity,28,mimiciv
+2,Medium,Died,139,treatment_intensity,28,mimiciv
+3,High,Alive,68,treatment_intensity,28,mimiciv
+3,High,Died,51,treatment_intensity,28,mimiciv
+3,Intensity unknown,Alive,18,treatment_intensity,28,mimiciv
+3,Intensity unknown,Died,20,treatment_intensity,28,mimiciv
+3,Low,Alive,84,treatment_intensity,28,mimiciv
+3,Low,Died,42,treatment_intensity,28,mimiciv
+3,Max,Alive,111,treatment_intensity,28,mimiciv
+3,Max,Died,95,treatment_intensity,28,mimiciv
+3,Medium,Alive,122,treatment_intensity,28,mimiciv
+3,Medium,Died,102,treatment_intensity,28,mimiciv
+1,High,icu_death,26,treatment_intensity,ICU,mimiciv
+1,High,live_exit,177,treatment_intensity,ICU,mimiciv
+1,High,unknown,2,treatment_intensity,ICU,mimiciv
+1,Intensity unknown,icu_death,10,treatment_intensity,ICU,mimiciv
+1,Intensity unknown,live_exit,53,treatment_intensity,ICU,mimiciv
+1,Low,icu_death,19,treatment_intensity,ICU,mimiciv
+1,Low,live_exit,188,treatment_intensity,ICU,mimiciv
+1,Max,icu_death,26,treatment_intensity,ICU,mimiciv
+1,Max,live_exit,86,treatment_intensity,ICU,mimiciv
+1,Medium,icu_death,36,treatment_intensity,ICU,mimiciv
+1,Medium,live_exit,381,treatment_intensity,ICU,mimiciv
+1,Medium,unknown,4,treatment_intensity,ICU,mimiciv
+2,High,icu_death,57,treatment_intensity,ICU,mimiciv
+2,High,live_exit,171,treatment_intensity,ICU,mimiciv
+2,High,unknown,4,treatment_intensity,ICU,mimiciv
+2,Intensity unknown,icu_death,17,treatment_intensity,ICU,mimiciv
+2,Intensity unknown,live_exit,36,treatment_intensity,ICU,mimiciv
+2,Low,icu_death,26,treatment_intensity,ICU,mimiciv
+2,Low,live_exit,109,treatment_intensity,ICU,mimiciv
+2,Max,icu_death,62,treatment_intensity,ICU,mimiciv
+2,Max,live_exit,148,treatment_intensity,ICU,mimiciv
+2,Max,unknown,2,treatment_intensity,ICU,mimiciv
+2,Medium,icu_death,82,treatment_intensity,ICU,mimiciv
+2,Medium,live_exit,262,treatment_intensity,ICU,mimiciv
+2,Medium,unknown,1,treatment_intensity,ICU,mimiciv
+3,High,icu_death,44,treatment_intensity,ICU,mimiciv
+3,High,live_exit,74,treatment_intensity,ICU,mimiciv
+3,High,unknown,1,treatment_intensity,ICU,mimiciv
+3,Intensity unknown,icu_death,7,treatment_intensity,ICU,mimiciv
+3,Intensity unknown,live_exit,30,treatment_intensity,ICU,mimiciv
+3,Intensity unknown,unknown,1,treatment_intensity,ICU,mimiciv
+3,Low,icu_death,25,treatment_intensity,ICU,mimiciv
+3,Low,live_exit,99,treatment_intensity,ICU,mimiciv
+3,Low,unknown,2,treatment_intensity,ICU,mimiciv
+3,Max,icu_death,84,treatment_intensity,ICU,mimiciv
+3,Max,live_exit,122,treatment_intensity,ICU,mimiciv
+3,Medium,icu_death,75,treatment_intensity,ICU,mimiciv
+3,Medium,live_exit,148,treatment_intensity,ICU,mimiciv
+3,Medium,unknown,1,treatment_intensity,ICU,mimiciv
+1,High,Alive,84,treatment_intensity,28,mimiciii
+1,High,Died,15,treatment_intensity,28,mimiciii
+1,Intensity unknown,Alive,2,treatment_intensity,28,mimiciii
+1,Intensity unknown,Died,1,treatment_intensity,28,mimiciii
+1,Low,Alive,79,treatment_intensity,28,mimiciii
+1,Low,Died,14,treatment_intensity,28,mimiciii
+1,Max,Alive,38,treatment_intensity,28,mimiciii
+1,Max,Died,17,treatment_intensity,28,mimiciii
+1,Medium,Alive,225,treatment_intensity,28,mimiciii
+1,Medium,Died,45,treatment_intensity,28,mimiciii
+2,High,Alive,72,treatment_intensity,28,mimiciii
+2,High,Died,25,treatment_intensity,28,mimiciii
+2,Intensity unknown,Alive,3,treatment_intensity,28,mimiciii
+2,Intensity unknown,Died,3,treatment_intensity,28,mimiciii
+2,Low,Alive,59,treatment_intensity,28,mimiciii
+2,Low,Died,15,treatment_intensity,28,mimiciii
+2,Max,Alive,48,treatment_intensity,28,mimiciii
+2,Max,Died,36,treatment_intensity,28,mimiciii
+2,Medium,Alive,119,treatment_intensity,28,mimiciii
+2,Medium,Died,62,treatment_intensity,28,mimiciii
+3,High,Alive,41,treatment_intensity,28,mimiciii
+3,High,Died,26,treatment_intensity,28,mimiciii
+3,Intensity unknown,Alive,1,treatment_intensity,28,mimiciii
+3,Intensity unknown,Died,2,treatment_intensity,28,mimiciii
+3,Low,Alive,44,treatment_intensity,28,mimiciii
+3,Low,Died,27,treatment_intensity,28,mimiciii
+3,Max,Alive,42,treatment_intensity,28,mimiciii
+3,Max,Died,49,treatment_intensity,28,mimiciii
+3,Medium,Alive,89,treatment_intensity,28,mimiciii
+3,Medium,Died,44,treatment_intensity,28,mimiciii
+1,High,icu_death,14,treatment_intensity,ICU,mimiciii
+1,High,live_exit,85,treatment_intensity,ICU,mimiciii
+1,Intensity unknown,icu_death,1,treatment_intensity,ICU,mimiciii
+1,Intensity unknown,live_exit,2,treatment_intensity,ICU,mimiciii
+1,Low,icu_death,12,treatment_intensity,ICU,mimiciii
+1,Low,live_exit,81,treatment_intensity,ICU,mimiciii
+1,Max,icu_death,14,treatment_intensity,ICU,mimiciii
+1,Max,live_exit,41,treatment_intensity,ICU,mimiciii
+1,Medium,icu_death,31,treatment_intensity,ICU,mimiciii
+1,Medium,live_exit,239,treatment_intensity,ICU,mimiciii
+2,High,icu_death,18,treatment_intensity,ICU,mimiciii
+2,High,live_exit,79,treatment_intensity,ICU,mimiciii
+2,Intensity unknown,icu_death,3,treatment_intensity,ICU,mimiciii
+2,Intensity unknown,live_exit,3,treatment_intensity,ICU,mimiciii
+2,Low,icu_death,12,treatment_intensity,ICU,mimiciii
+2,Low,live_exit,62,treatment_intensity,ICU,mimiciii
+2,Max,icu_death,31,treatment_intensity,ICU,mimiciii
+2,Max,live_exit,52,treatment_intensity,ICU,mimiciii
+2,Max,unknown,1,treatment_intensity,ICU,mimiciii
+2,Medium,icu_death,49,treatment_intensity,ICU,mimiciii
+2,Medium,live_exit,132,treatment_intensity,ICU,mimiciii
+3,High,icu_death,27,treatment_intensity,ICU,mimiciii
+3,High,live_exit,40,treatment_intensity,ICU,mimiciii
+3,Intensity unknown,live_exit,3,treatment_intensity,ICU,mimiciii
+3,Low,icu_death,21,treatment_intensity,ICU,mimiciii
+3,Low,live_exit,50,treatment_intensity,ICU,mimiciii
+3,Max,icu_death,49,treatment_intensity,ICU,mimiciii
+3,Max,live_exit,42,treatment_intensity,ICU,mimiciii
+3,Medium,icu_death,37,treatment_intensity,ICU,mimiciii
+3,Medium,live_exit,95,treatment_intensity,ICU,mimiciii
+3,Medium,unknown,1,treatment_intensity,ICU,mimiciii

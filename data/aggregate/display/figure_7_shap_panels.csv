@@ -1,0 +1,25 @@
+panel,trajectory_class,rank,variable,label,mean_abs_shap,n,cohort,output_space,selection
+E,1,1,easix_day,EASIX,1.0162262916564941,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+E,1,2,creatinine_mean,Creatinine,0.344181627035141,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+E,1,3,platelets_109_l,Platelets · minimum,0.2595052123069763,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+E,1,4,lactate_mean,Lactate,0.1873779296875,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+E,1,5,platelet_mean,Platelets · mean,0.1544521600008011,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+E,1,6,aniongap_mean,Anion gap,0.14133265614509583,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+E,1,7,phosphate_mean,Phosphate,0.11182157695293427,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+E,1,8,ldh_mean,LDH,0.10366250574588776,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+F,2,1,easix_day,EASIX,0.3645952045917511,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+F,2,2,siri_day,SIRI,0.18826234340667725,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+F,2,3,creatinine_mean,Creatinine,0.13010694086551666,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+F,2,4,ptt_mean,aPTT,0.08467957377433777,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+F,2,5,wbc_mean,WBC,0.08216698467731476,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+F,2,6,ldh_mean,LDH,0.05839501693844795,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+F,2,7,aniongap_mean,Anion gap,0.05256804823875427,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+F,2,8,potassium_mean,Potassium,0.044478144496679306,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+G,3,1,easix_day,EASIX,0.6764044165611267,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+G,3,2,platelets_109_l,Platelets · minimum,0.2617592513561249,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+G,3,3,ldh_mean,LDH,0.16567228734493256,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+G,3,4,phosphate_mean,Phosphate,0.12203516811132431,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+G,3,5,platelet_mean,Platelets · mean,0.11316356807947159,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+G,3,6,lactate_mean,Lactate,0.10357396304607391,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+G,3,7,potassium_mean,Potassium,0.10074929893016815,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output
+G,3,8,siri_day,SIRI,0.10028094798326492,810,MIMIC-IV internal validation,class-specific raw margin,all internal-validation patients for each model output

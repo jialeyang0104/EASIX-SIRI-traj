@@ -1,0 +1,76 @@
+Characteristic,Type,MIMIC-IV,MIMIC-III,P value
+Patients,count,51658,32385,
+"Age, years",continuous,67.0 (55.0–77.0) [observed n=51658],66.0 (52.0–77.0) [observed n=32385],<0.001
+Male sex,binary,29433/51658 (57.0%),18415/32385 (56.9%),0.751
+White race/ethnicity,binary,33860/51658 (65.5%),23077/32385 (71.3%),<0.001
+Sepsis,binary,23455/51658 (45.4%),16222/32385 (50.1%),<0.001
+OASIS,continuous,31.0 (25.0–37.0) [observed n=51658],31.0 (25.0–37.0) [observed n=32385],<0.001
+SOFA,continuous,4.0 (2.0–6.0) [observed n=51658],6.0 (4.0–8.0) [observed n=32385],<0.001
+APS III,continuous,38.0 (29.0–52.0) [observed n=51658],39.0 (29.0–52.0) [observed n=32385],0.760
+SIRS score,continuous,3.0 (2.0–3.0) [observed n=51658],3.0 (2.0–4.0) [observed n=32385],<0.001
+"Mechanical ventilation, Day 1",binary,21286/51658 (41.2%),16155/32385 (49.9%),<0.001
+"Vasopressor, Day 1",binary,15630/51658 (30.3%),10385/32385 (32.1%),<0.001
+"CRRT, Day 1",binary,683/51658 (1.3%),158/32385 (0.5%),<0.001
+"AKI, Day 1",binary,26662/51658 (51.6%),14390/32385 (44.4%),<0.001
+"LDH · maximum, U/L",continuous,289.0 (209.0–461.0) [observed n=14436],273.0 (200.0–425.0) [observed n=7148],<0.001
+"Creatinine · maximum, mg/dL",continuous,1.0 (0.7–1.4) [observed n=50861],0.9 (0.7–1.3) [observed n=31639],<0.001
+"Platelets · minimum, 10⁹/L",continuous,174.0 (124.0–236.0) [observed n=50630],186.0 (132.0–249.0) [observed n=31358],<0.001
+"White blood cells · maximum, 10⁹/L",continuous,12.1 (8.7–16.6) [observed n=50618],11.8 (8.7–15.9) [observed n=31248],<0.001
+"Neutrophils, 10⁹/L",continuous,9.8 (6.6–14.0) [observed n=19467],10.4 (6.9–15.0) [observed n=7892],<0.001
+"Monocytes, 10⁹/L",continuous,0.6 (0.3–0.9) [observed n=19190],0.5 (0.3–0.8) [observed n=7750],<0.001
+"Lymphocytes, 10⁹/L",continuous,1.3 (0.8–2.0) [observed n=19404],1.1 (0.7–1.7) [observed n=7834],<0.001
+"Neutrophils, %",continuous,80.7 (73.0–86.7) [observed n=19468],83.5 (75.3–89.0) [observed n=7893],<0.001
+"Monocytes, %",continuous,4.6 (3.0–6.9) [observed n=19191],4.0 (2.7–5.7) [observed n=7752],<0.001
+"Lymphocytes, %",continuous,11.0 (6.2–17.7) [observed n=19400],9.0 (5.0–14.5) [observed n=7836],<0.001
+"EASIX · daily index, index",continuous,2.4 (1.1–6.6) [observed n=14371],2.1 (1.0–5.6) [observed n=7097],<0.001
+"SIRI · daily index, index",continuous,4.0 (1.7–9.5) [observed n=19084],4.4 (2.0–9.7) [observed n=7675],<0.001
+"ALT · mean, U/L",continuous,28.0 (16.0–65.0) [observed n=22716],33.0 (18.0–76.0) [observed n=10879],<0.001
+"AST · mean, U/L",continuous,41.0 (23.0–98.0) [observed n=22856],47.0 (25.0–113.0) [observed n=10868],<0.001
+"ALP · mean, U/L",continuous,79.0 (58.5–115.0) [observed n=22552],77.5 (57.0–116.0) [observed n=10576],0.081
+"Total bilirubin · mean, mg/dL",continuous,0.7 (0.4–1.4) [observed n=22523],0.7 (0.4–1.5) [observed n=10760],<0.001
+"Albumin · mean, g/dL",continuous,3.2 (2.7–3.6) [observed n=14481],3.1 (2.6–3.5) [observed n=8617],<0.001
+"Creatinine · mean, mg/dL",continuous,0.9 (0.7–1.3) [observed n=50861],0.9 (0.7–1.3) [observed n=31639],<0.001
+"BUN · mean, mg/dL",continuous,17.5 (12.3–28.0) [observed n=50846],17.5 (12.0–28.0) [observed n=31627],0.055
+"LDH · mean, U/L",continuous,283.0 (206.0–444.0) [observed n=14436],268.5 (197.4–412.0) [observed n=7148],<0.001
+"WBC · mean, 10^9/L",continuous,11.1 (8.1–14.8) [observed n=50618],11.0 (8.2–14.6) [observed n=31248],0.387
+"Platelets · mean, 10^9/L",continuous,185.5 (137.0–246.0) [observed n=50630],196.0 (144.7–258.0) [observed n=31358],<0.001
+"Haemoglobin · mean, g/dL",continuous,10.7 (9.3–12.2) [observed n=50612],10.7 (9.6–12.1) [observed n=31164],<0.001
+"Haematocrit · mean, %",continuous,32.3 (28.2–36.7) [observed n=50705],31.4 (28.3–35.3) [observed n=31530],<0.001
+"RBC · mean, 10^12/L",continuous,3.6 (3.1–4.1) [observed n=50614],3.5 (3.2–4.0) [observed n=31146],0.653
+"MCV · mean, fL",continuous,91.0 (87.0–95.0) [observed n=50613],89.0 (85.5–93.0) [observed n=31146],<0.001
+"INR · mean, ratio",continuous,1.2 (1.1–1.4) [observed n=44078],1.3 (1.1–1.5) [observed n=25897],<0.001
+"PT · mean, s",continuous,13.8 (12.4–15.8) [observed n=44079],14.2 (13.2–15.7) [observed n=25898],<0.001
+"aPTT · mean, s",continuous,30.4 (27.1–37.0) [observed n=43766],31.5 (27.1–39.6) [observed n=25819],<0.001
+"Sodium · mean, mmol/L",continuous,138.5 (136.0–141.0) [observed n=50867],139.0 (136.7–141.0) [observed n=31352],<0.001
+"Potassium · mean, mmol/L",continuous,4.1 (3.8–4.5) [observed n=50829],4.1 (3.8–4.5) [observed n=31069],<0.001
+"Chloride · mean, mmol/L",continuous,105.0 (101.2–108.0) [observed n=50869],106.0 (103.0–109.2) [observed n=31481],<0.001
+"Bicarbonate · mean, mmol/L",continuous,23.0 (21.0–25.0) [observed n=50847],24.0 (21.5–26.0) [observed n=31472],<0.001
+"Anion gap · mean, mmol/L",continuous,13.0 (11.0–15.5) [observed n=50783],13.0 (11.3–15.0) [observed n=30779],0.002
+"Total calcium · mean, mg/dL",continuous,8.3 (7.9–8.8) [observed n=46065],8.3 (7.8–8.7) [observed n=26026],<0.001
+"Magnesium · mean, mg/dL",continuous,2.0 (1.9–2.2) [observed n=48877],2.0 (1.8–2.2) [observed n=29783],<0.001
+"Phosphate · mean, mg/dL",continuous,3.4 (2.9–4.1) [observed n=46592],3.4 (2.8–4.0) [observed n=26219],<0.001
+"Glucose · mean, mg/dL",continuous,125.3 (106.0–153.7) [observed n=50613],126.0 (106.0–154.0) [observed n=30696],0.778
+"Lactate · mean, mmol/L",continuous,1.8 (1.3–2.5) [observed n=30798],1.9 (1.3–2.7) [observed n=14589],0.001
+"Heart rate · mean, beats/min",continuous,82.8 (73.4–94.0) [observed n=51589],84.6 (74.9–95.4) [observed n=31994],<0.001
+"SBP · mean, mmHg",continuous,116.2 (107.2–128.2) [observed n=51587],116.9 (107.4–129.3) [observed n=31966],<0.001
+"DBP · mean, mmHg",continuous,62.4 (56.0–70.3) [observed n=51587],59.7 (53.6–66.9) [observed n=31965],<0.001
+"MAP · mean, mmHg",continuous,77.7 (71.6–85.7) [observed n=51578],77.1 (70.9–84.7) [observed n=31992],<0.001
+"Respiratory rate · mean, breaths/min",continuous,18.4 (16.5–21.1) [observed n=51498],18.1 (16.0–20.8) [observed n=31961],<0.001
+"Temperature · mean, degC",continuous,36.8 (36.6–37.1) [observed n=50033],36.8 (36.5–37.2) [observed n=31401],0.052
+"SpO2 · mean, %",continuous,97.1 (95.7–98.4) [observed n=51578],97.6 (96.3–98.8) [observed n=31985],<0.001
+"Arterial pH · mean, pH",continuous,7.37 (7.34–7.41) [observed n=24855],7.38 (7.34–7.42) [observed n=19327],<0.001
+"PaO2 · mean, mmHg",continuous,156.0 (106.2–215.3) [observed n=24855],151.7 (107.4–207.4) [observed n=19327],<0.001
+"PaCO2 · mean, mmHg",continuous,40.0 (36.1–44.0) [observed n=24854],40.0 (36.2–44.0) [observed n=19327],0.843
+"PaO2/FiO2 · mean, mmHg",continuous,264.2 (194.1–350.0) [observed n=21296],268.8 (200.1–349.9) [observed n=15647],0.010
+"GCS · mean, points",continuous,15.0 (14.5–15.0) [observed n=51573],15.0 (14.7–15.0) [observed n=31982],<0.001
+"Urine output · mean, mL/h",continuous,66.7 (42.2–100.0) [observed n=50406],74.9 (47.3–111.9) [observed n=31616],<0.001
+Any recorded NEE,binary,15443/51658 (29.9%),10171/32385 (31.4%),<0.001
+Maximum NEE >0.3 µg/kg/min,binary,3213/51658 (6.2%),1727/32382 (5.3%),<0.001
+Net fluid balance >30 mL/kg,binary,17958/45106 (39.8%),12963/30428 (42.6%),<0.001
+Recorded invasive mechanical ventilation,binary,21286/51658 (41.2%),16155/32385 (49.9%),<0.001
+Recorded CRRT,binary,606/51658 (1.2%),158/32385 (0.5%),<0.001
+"ICU length of stay, days",continuous,2.4 (1.5–4.5) [observed n=51658],2.5 (1.6–4.8) [observed n=32385],<0.001
+"Hospital length of stay, days",continuous,7.6 (4.7–12.9) [observed n=51658],7.6 (4.7–12.9) [observed n=32385],0.652
+28-day mortality,binary,6783/51658 (13.1%),4085/32385 (12.6%),0.031
+ICU mortality (known outcomes),binary,3472/51578 (6.7%),2324/32362 (7.2%),0.013
+ICU outcome unknown,binary,80/51658 (0.2%),23/32385 (0.1%),0.001

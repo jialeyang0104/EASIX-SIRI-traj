@@ -1,0 +1,9 @@
+dataset,stage,n,events_28,events_90
+mimiciv,cached_adult_first_icu,51658,6783,9383
+mimiciv,static_alive_24h,51606,6731,9331
+mimiciv,fixed_k3_assigned,2698,877,1100
+mimiciv,trajectory_alive_icu_resident_day7,1415,448,587
+mimiciii,cached_adult_first_icu,32385,4085,5718
+mimiciii,static_alive_24h,32358,4058,5691
+mimiciii,fixed_k3_assigned,1327,381,501
+mimiciii,trajectory_alive_icu_resident_day7,737,218,296

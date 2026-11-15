@@ -1,0 +1,9 @@
+dataset,analysis,model,outcome,n
+mimiciv,static_day1_24h_landmark,easix,ICU,14300
+mimiciv,static_day1_24h_landmark,siri,ICU,19027
+mimiciv,static_day1_24h_landmark,joint,ICU,7205
+mimiciv,day7_landmark,gbmtm_k3,ICU,1409
+mimiciii,static_day1_24h_landmark,easix,ICU,7077
+mimiciii,static_day1_24h_landmark,siri,ICU,7661
+mimiciii,static_day1_24h_landmark,joint,ICU,3197
+mimiciii,day7_landmark,gbmtm_k3,ICU,737

@@ -1,0 +1,55 @@
+dataset,trajectory_class,intensity,fluid_cutoff_basis,n
+mimiciv,1,High,"2,000 mL (invalid or missing weight)",1
+mimiciv,1,High,30 mL/kg,204
+mimiciv,1,Intensity unknown,Missing fluid documentation,63
+mimiciv,1,Low,"2,000 mL (invalid or missing weight)",5
+mimiciv,1,Low,30 mL/kg,202
+mimiciv,1,Max,30 mL/kg,110
+mimiciv,1,Max,Missing fluid documentation,2
+mimiciv,1,Medium,"2,000 mL (invalid or missing weight)",3
+mimiciv,1,Medium,30 mL/kg,358
+mimiciv,1,Medium,Missing fluid documentation,60
+mimiciv,2,High,30 mL/kg,227
+mimiciv,2,High,Missing fluid documentation,5
+mimiciv,2,Intensity unknown,Missing fluid documentation,53
+mimiciv,2,Low,30 mL/kg,135
+mimiciv,2,Max,"2,000 mL (invalid or missing weight)",1
+mimiciv,2,Max,30 mL/kg,195
+mimiciv,2,Max,Missing fluid documentation,16
+mimiciv,2,Medium,"2,000 mL (invalid or missing weight)",3
+mimiciv,2,Medium,30 mL/kg,267
+mimiciv,2,Medium,Missing fluid documentation,75
+mimiciv,3,High,"2,000 mL (invalid or missing weight)",2
+mimiciv,3,High,30 mL/kg,115
+mimiciv,3,High,Missing fluid documentation,2
+mimiciv,3,Intensity unknown,Missing fluid documentation,38
+mimiciv,3,Low,"2,000 mL (invalid or missing weight)",1
+mimiciv,3,Low,30 mL/kg,125
+mimiciv,3,Max,30 mL/kg,197
+mimiciv,3,Max,Missing fluid documentation,9
+mimiciv,3,Medium,"2,000 mL (invalid or missing weight)",1
+mimiciv,3,Medium,30 mL/kg,180
+mimiciv,3,Medium,Missing fluid documentation,43
+mimiciii,1,High,30 mL/kg,98
+mimiciii,1,High,Missing fluid documentation,1
+mimiciii,1,Intensity unknown,Missing fluid documentation,3
+mimiciii,1,Low,"2,000 mL (invalid or missing weight)",1
+mimiciii,1,Low,30 mL/kg,92
+mimiciii,1,Max,30 mL/kg,55
+mimiciii,1,Medium,30 mL/kg,270
+mimiciii,2,High,30 mL/kg,95
+mimiciii,2,High,Missing fluid documentation,2
+mimiciii,2,Intensity unknown,Missing fluid documentation,6
+mimiciii,2,Low,"2,000 mL (invalid or missing weight)",1
+mimiciii,2,Low,30 mL/kg,73
+mimiciii,2,Max,30 mL/kg,82
+mimiciii,2,Max,Missing fluid documentation,2
+mimiciii,2,Medium,"2,000 mL (invalid or missing weight)",1
+mimiciii,2,Medium,30 mL/kg,180
+mimiciii,3,High,30 mL/kg,67
+mimiciii,3,Intensity unknown,Missing fluid documentation,3
+mimiciii,3,Low,30 mL/kg,71
+mimiciii,3,Max,30 mL/kg,90
+mimiciii,3,Max,Missing fluid documentation,1
+mimiciii,3,Medium,30 mL/kg,132
+mimiciii,3,Medium,Missing fluid documentation,1

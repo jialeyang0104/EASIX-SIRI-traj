@@ -1,0 +1,9 @@
+Dataset,Horizon,Analysis,Class,N,Events,HR (95% CI),P value
+mimiciv,28-day,day7_landmark,trajectory_class2,1415,448,1.76 (1.39-2.23),<0.001
+mimiciv,28-day,day7_landmark,trajectory_class3,1415,448,1.80 (1.39-2.34),<0.001
+mimiciv,90-day,day7_landmark,trajectory_class2,1415,587,1.75 (1.43-2.15),<0.001
+mimiciv,90-day,day7_landmark,trajectory_class3,1415,587,1.84 (1.47-2.31),<0.001
+mimiciii,28-day,day7_landmark,trajectory_class2,737,218,1.72 (1.23-2.41),0.002
+mimiciii,28-day,day7_landmark,trajectory_class3,737,218,1.99 (1.40-2.83),<0.001
+mimiciii,90-day,day7_landmark,trajectory_class2,737,296,1.70 (1.27-2.27),<0.001
+mimiciii,90-day,day7_landmark,trajectory_class3,737,296,2.10 (1.55-2.84),<0.001

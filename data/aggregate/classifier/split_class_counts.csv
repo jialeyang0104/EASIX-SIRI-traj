@@ -1,0 +1,10 @@
+cohort,trajectory_class,n
+MIMIC-IV train,1,705
+MIMIC-IV train,2,684
+MIMIC-IV train,3,499
+MIMIC-IV internal validation,1,303
+MIMIC-IV internal validation,2,293
+MIMIC-IV internal validation,3,214
+MIMIC-III external validation,1,520
+MIMIC-III external validation,2,442
+MIMIC-III external validation,3,365

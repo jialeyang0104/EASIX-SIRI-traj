@@ -1,0 +1,85 @@
+gbmtm_class,day,index,fitted_z,selected_k,degree,pruning,dataset,value,statistic,mean_z,se_z,n_stays,ci_low,ci_high
+1,1,log2_easix_interp_z,-0.817560871032119,3.0,2.0,True,mimiciv,-0.817560871032119,fitted model mean,,,,,
+1,2,log2_easix_interp_z,-0.886952695510155,3.0,2.0,True,mimiciv,-0.886952695510155,fitted model mean,,,,,
+1,3,log2_easix_interp_z,-0.940510479361612,3.0,2.0,True,mimiciv,-0.940510479361612,fitted model mean,,,,,
+1,4,log2_easix_interp_z,-0.978234222586491,3.0,2.0,True,mimiciv,-0.978234222586491,fitted model mean,,,,,
+1,5,log2_easix_interp_z,-1.00012392518479,3.0,2.0,True,mimiciv,-1.00012392518479,fitted model mean,,,,,
+1,6,log2_easix_interp_z,-1.00617958715651,3.0,2.0,True,mimiciv,-1.00617958715651,fitted model mean,,,,,
+1,7,log2_easix_interp_z,-0.99640120850166,3.0,2.0,True,mimiciv,-0.99640120850166,fitted model mean,,,,,
+1,1,log2_siri_interp_z,0.0627952708483932,3.0,2.0,True,mimiciv,0.0627952708483932,fitted model mean,,,,,
+1,2,log2_siri_interp_z,-0.0049044376617601,3.0,2.0,True,mimiciv,-0.0049044376617601,fitted model mean,,,,,
+1,3,log2_siri_interp_z,-0.0555106798391461,3.0,2.0,True,mimiciv,-0.0555106798391461,fitted model mean,,,,,
+1,4,log2_siri_interp_z,-0.0890234556837647,3.0,2.0,True,mimiciv,-0.0890234556837647,fitted model mean,,,,,
+1,5,log2_siri_interp_z,-0.105442765195616,3.0,2.0,True,mimiciv,-0.105442765195616,fitted model mean,,,,,
+1,6,log2_siri_interp_z,-0.1047686083747,3.0,2.0,True,mimiciv,-0.1047686083747,fitted model mean,,,,,
+1,7,log2_siri_interp_z,-0.0870009852210159,3.0,2.0,True,mimiciv,-0.0870009852210159,fitted model mean,,,,,
+2,1,log2_easix_interp_z,0.177507686928384,3.0,2.0,True,mimiciv,0.177507686928384,fitted model mean,,,,,
+2,2,log2_easix_interp_z,0.149190639829176,3.0,2.0,True,mimiciv,0.149190639829176,fitted model mean,,,,,
+2,3,log2_easix_interp_z,0.124921599615492,3.0,2.0,True,mimiciv,0.124921599615492,fitted model mean,,,,,
+2,4,log2_easix_interp_z,0.10470056628733,3.0,2.0,True,mimiciv,0.10470056628733,fitted model mean,,,,,
+2,5,log2_easix_interp_z,0.088527539844691,3.0,2.0,True,mimiciv,0.088527539844691,fitted model mean,,,,,
+2,6,log2_easix_interp_z,0.076402520287575,3.0,2.0,True,mimiciv,0.076402520287575,fitted model mean,,,,,
+2,7,log2_easix_interp_z,0.068325507615982,3.0,2.0,True,mimiciv,0.068325507615982,fitted model mean,,,,,
+2,1,log2_siri_interp_z,0.38612224777066,3.0,2.0,True,mimiciv,0.38612224777066,fitted model mean,,,,,
+2,2,log2_siri_interp_z,0.353720154010763,3.0,2.0,True,mimiciv,0.353720154010763,fitted model mean,,,,,
+2,3,log2_siri_interp_z,0.330298089171518,3.0,2.0,True,mimiciv,0.330298089171518,fitted model mean,,,,,
+2,4,log2_siri_interp_z,0.315856053252927,3.0,2.0,True,mimiciv,0.315856053252927,fitted model mean,,,,,
+2,5,log2_siri_interp_z,0.310394046254989,3.0,2.0,True,mimiciv,0.310394046254989,fitted model mean,,,,,
+2,6,log2_siri_interp_z,0.313912068177704,3.0,2.0,True,mimiciv,0.313912068177704,fitted model mean,,,,,
+2,7,log2_siri_interp_z,0.326410119021072,3.0,2.0,True,mimiciv,0.326410119021072,fitted model mean,,,,,
+3,1,log2_easix_interp_z,1.19401204373834,3.0,2.0,True,mimiciv,1.19401204373834,fitted model mean,,,,,
+3,2,log2_easix_interp_z,1.21950968851312,3.0,2.0,True,mimiciv,1.21950968851312,fitted model mean,,,,,
+3,3,log2_easix_interp_z,1.22786832475258,3.0,2.0,True,mimiciv,1.22786832475258,fitted model mean,,,,,
+3,4,log2_easix_interp_z,1.21908795245674,3.0,2.0,True,mimiciv,1.21908795245674,fitted model mean,,,,,
+3,5,log2_easix_interp_z,1.19316857162558,3.0,2.0,True,mimiciv,1.19316857162558,fitted model mean,,,,,
+3,6,log2_easix_interp_z,1.15011018225911,3.0,2.0,True,mimiciv,1.15011018225911,fitted model mean,,,,,
+3,7,log2_easix_interp_z,1.08991278435733,3.0,2.0,True,mimiciv,1.08991278435733,fitted model mean,,,,,
+3,1,log2_siri_interp_z,-0.380193306237691,3.0,2.0,True,mimiciv,-0.380193306237691,fitted model mean,,,,,
+3,2,log2_siri_interp_z,-0.380193306237691,3.0,2.0,True,mimiciv,-0.380193306237691,fitted model mean,,,,,
+3,3,log2_siri_interp_z,-0.380193306237691,3.0,2.0,True,mimiciv,-0.380193306237691,fitted model mean,,,,,
+3,4,log2_siri_interp_z,-0.380193306237691,3.0,2.0,True,mimiciv,-0.380193306237691,fitted model mean,,,,,
+3,5,log2_siri_interp_z,-0.380193306237691,3.0,2.0,True,mimiciv,-0.380193306237691,fitted model mean,,,,,
+3,6,log2_siri_interp_z,-0.380193306237691,3.0,2.0,True,mimiciv,-0.380193306237691,fitted model mean,,,,,
+3,7,log2_siri_interp_z,-0.380193306237691,3.0,2.0,True,mimiciv,-0.380193306237691,fitted model mean,,,,,
+3,1,log2_easix_interp_z,,,,,mimiciii,1.14655912770732,mean preprocessed fixed-assignment profile,1.14655912770732,0.0455213070502441,365.0,1.05733736588884,1.2357808895258
+3,2,log2_easix_interp_z,,,,,mimiciii,1.22850946573975,mean preprocessed fixed-assignment profile,1.22850946573975,0.0423320911042506,365.0,1.14553856717542,1.31148036430408
+3,3,log2_easix_interp_z,,,,,mimiciii,1.25379991617067,mean preprocessed fixed-assignment profile,1.25379991617067,0.039429826072812,365.0,1.17651745706796,1.33108237527338
+3,4,log2_easix_interp_z,,,,,mimiciii,1.20364349074454,mean preprocessed fixed-assignment profile,1.20364349074454,0.0391755195102201,365.0,1.12685947250451,1.28042750898458
+3,5,log2_easix_interp_z,,,,,mimiciii,1.17929434714325,mean preprocessed fixed-assignment profile,1.17929434714325,0.0400808094323558,365.0,1.10073596065583,1.25785273363067
+3,6,log2_easix_interp_z,,,,,mimiciii,1.13720309528057,mean preprocessed fixed-assignment profile,1.13720309528057,0.040638666231349,365.0,1.05755130946713,1.21685488109402
+3,7,log2_easix_interp_z,,,,,mimiciii,1.10695062557141,mean preprocessed fixed-assignment profile,1.10695062557141,0.0412934021990734,365.0,1.02601555726123,1.1878856938816
+1,1,log2_easix_interp_z,,,,,mimiciii,-0.865176358421518,mean preprocessed fixed-assignment profile,-0.865176358421518,0.0204486600939098,520.0,-0.905255732205581,-0.825096984637455
+1,2,log2_easix_interp_z,,,,,mimiciii,-0.945479617192227,mean preprocessed fixed-assignment profile,-0.945479617192227,0.0191850079053495,520.0,-0.983082232686712,-0.907877001697742
+1,3,log2_easix_interp_z,,,,,mimiciii,-0.992664620417102,mean preprocessed fixed-assignment profile,-0.992664620417102,0.0183031426819063,520.0,-1.02853878007364,-0.956790460760566
+1,4,log2_easix_interp_z,,,,,mimiciii,-1.02130734764283,mean preprocessed fixed-assignment profile,-1.02130734764283,0.0177996708316507,520.0,-1.05619470247286,-0.986419992812793
+1,5,log2_easix_interp_z,,,,,mimiciii,-1.03892774657633,mean preprocessed fixed-assignment profile,-1.03892774657633,0.0178948789937803,520.0,-1.07400170940414,-1.00385378374852
+1,6,log2_easix_interp_z,,,,,mimiciii,-1.04939776990541,mean preprocessed fixed-assignment profile,-1.04939776990541,0.0178899640676028,520.0,-1.08446209947791,-1.01433344033291
+1,7,log2_easix_interp_z,,,,,mimiciii,-1.05766482560254,mean preprocessed fixed-assignment profile,-1.05766482560254,0.0180967156406392,520.0,-1.09313438825819,-1.02219526294688
+2,1,log2_easix_interp_z,,,,,mimiciii,0.187611990438194,mean preprocessed fixed-assignment profile,0.187611990438194,0.0236075407158085,442.0,0.141341210635209,0.233882770241179
+2,2,log2_easix_interp_z,,,,,mimiciii,0.12480251918905,mean preprocessed fixed-assignment profile,0.12480251918905,0.0192520694296508,442.0,0.0870684631069346,0.162536575271166
+2,3,log2_easix_interp_z,,,,,mimiciii,0.104297101848981,mean preprocessed fixed-assignment profile,0.104297101848981,0.0176066901045355,442.0,0.0697879892440911,0.13880621445387
+2,4,log2_easix_interp_z,,,,,mimiciii,0.0753765821400724,mean preprocessed fixed-assignment profile,0.0753765821400724,0.0176558598014987,442.0,0.040771096929135,0.10998206735101
+2,5,log2_easix_interp_z,,,,,mimiciii,0.0565684082481159,mean preprocessed fixed-assignment profile,0.0565684082481159,0.0188111151523643,442.0,0.0196986225494819,0.0934381939467499
+2,6,log2_easix_interp_z,,,,,mimiciii,0.0211967195565379,mean preprocessed fixed-assignment profile,0.0211967195565379,0.0194571198086834,442.0,-0.0169392352684814,0.0593326743815573
+2,7,log2_easix_interp_z,,,,,mimiciii,0.0014437057181227,mean preprocessed fixed-assignment profile,0.0014437057181227,0.020558164885641,442.0,-0.0388502974577336,0.041737708893979
+3,1,log2_siri_interp_z,,,,,mimiciii,-0.447342506165992,mean preprocessed fixed-assignment profile,-0.447342506165992,0.0698794501055228,365.0,-0.584306228372817,-0.310378783959168
+3,2,log2_siri_interp_z,,,,,mimiciii,-0.468806570234259,mean preprocessed fixed-assignment profile,-0.468806570234259,0.0683939194424052,365.0,-0.602858652341373,-0.334754488127145
+3,3,log2_siri_interp_z,,,,,mimiciii,-0.485971325913916,mean preprocessed fixed-assignment profile,-0.485971325913916,0.0677214692762815,365.0,-0.618705405695428,-0.353237246132404
+3,4,log2_siri_interp_z,,,,,mimiciii,-0.487503633038959,mean preprocessed fixed-assignment profile,-0.487503633038959,0.068432433531093,365.0,-0.621631202759901,-0.353376063318016
+3,5,log2_siri_interp_z,,,,,mimiciii,-0.489359005195985,mean preprocessed fixed-assignment profile,-0.489359005195985,0.0678193461120114,365.0,-0.622284923575527,-0.356433086816443
+3,6,log2_siri_interp_z,,,,,mimiciii,-0.489516366279153,mean preprocessed fixed-assignment profile,-0.489516366279153,0.0676825698141192,365.0,-0.622174203114826,-0.356858529443479
+3,7,log2_siri_interp_z,,,,,mimiciii,-0.481543020783727,mean preprocessed fixed-assignment profile,-0.481543020783727,0.0695236917181867,365.0,-0.617809456551373,-0.345276585016081
+1,1,log2_siri_interp_z,,,,,mimiciii,-0.053470448525027,mean preprocessed fixed-assignment profile,-0.053470448525027,0.0387574369118256,520.0,-0.129435024872205,0.0224941278221511
+1,2,log2_siri_interp_z,,,,,mimiciii,-0.167011227826127,mean preprocessed fixed-assignment profile,-0.167011227826127,0.0342156061496335,520.0,-0.234073815879408,-0.0999486397728451
+1,3,log2_siri_interp_z,,,,,mimiciii,-0.20029576685224,mean preprocessed fixed-assignment profile,-0.20029576685224,0.033845377232872,520.0,-0.266632706228669,-0.133958827475811
+1,4,log2_siri_interp_z,,,,,mimiciii,-0.2384702794732,mean preprocessed fixed-assignment profile,-0.2384702794732,0.0342439561543871,520.0,-0.305588433535798,-0.171352125410601
+1,5,log2_siri_interp_z,,,,,mimiciii,-0.235438549260952,mean preprocessed fixed-assignment profile,-0.235438549260952,0.034520857675993,520.0,-0.303099430305898,-0.167777668216006
+1,6,log2_siri_interp_z,,,,,mimiciii,-0.237019642699881,mean preprocessed fixed-assignment profile,-0.237019642699881,0.0346218004693115,520.0,-0.304878371619732,-0.169160913780031
+1,7,log2_siri_interp_z,,,,,mimiciii,-0.241593966536671,mean preprocessed fixed-assignment profile,-0.241593966536671,0.035696015666958,520.0,-0.311558157243909,-0.171629775829433
+2,1,log2_siri_interp_z,,,,,mimiciii,0.347846290015588,mean preprocessed fixed-assignment profile,0.347846290015588,0.0365197080400341,442.0,0.276267662257121,0.419424917774055
+2,2,log2_siri_interp_z,,,,,mimiciii,0.273095634293238,mean preprocessed fixed-assignment profile,0.273095634293238,0.0327651675748203,442.0,0.20887590584659,0.337315362739886
+2,3,log2_siri_interp_z,,,,,mimiciii,0.220768493496185,mean preprocessed fixed-assignment profile,0.220768493496185,0.0316872638104941,442.0,0.158661456427617,0.282875530564754
+2,4,log2_siri_interp_z,,,,,mimiciii,0.224161927157437,mean preprocessed fixed-assignment profile,0.224161927157437,0.03228472377602,442.0,0.160883868556438,0.287439985758436
+2,5,log2_siri_interp_z,,,,,mimiciii,0.234252197125317,mean preprocessed fixed-assignment profile,0.234252197125317,0.0335451443709308,442.0,0.168503714158293,0.300000680092342
+2,6,log2_siri_interp_z,,,,,mimiciii,0.215331797798627,mean preprocessed fixed-assignment profile,0.215331797798627,0.0343843031184326,442.0,0.147938563686499,0.282725031910755
+2,7,log2_siri_interp_z,,,,,mimiciii,0.208478078657324,mean preprocessed fixed-assignment profile,0.208478078657324,0.0351387978016053,442.0,0.139606034966177,0.27735012234847

@@ -1,0 +1,4 @@
+artifact,dataset,n_matched,n_max_abs_difference,events_max_abs_difference,hazard_ratio_max_abs_difference,logrank_p_max_abs_difference
+all_icu_cox_static_effects.csv,mimiciv,212,0,0,9.992007221626409e-15,
+all_icu_cox_gbmtm_trajectory_effects.csv,mimiciv,44,0,0,0.0,
+all_icu_km_gbmtm_logrank_tests.csv,mimiciv,4,0,0,,0.0

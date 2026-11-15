@@ -1,0 +1,83 @@
+dataset,variable,label,unit,system,source,source_itemid,window,aggregation,index_component
+mimiciv,alt_mean,ALT,U/L,Hepatic,mimiciv_hosp.labevents,50861,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,ast_mean,AST,U/L,Hepatic,mimiciv_hosp.labevents,50878,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,alp_mean,ALP,U/L,Hepatic,mimiciv_hosp.labevents,50863,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,bilirubin_mean,Total bilirubin,mg/dL,Hepatic,mimiciv_hosp.labevents,50885,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,albumin_mean,Albumin,g/dL,Hepatic,mimiciv_hosp.labevents,50862,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,creatinine_mean,Creatinine,mg/dL,Renal,mimiciv_hosp.labevents,50912,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,True
+mimiciv,bun_mean,BUN,mg/dL,Renal,mimiciv_hosp.labevents,51006,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,ldh_mean,LDH,U/L,Index components,mimiciv_hosp.labevents,50954,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,True
+mimiciv,wbc_mean,WBC,10^9/L,Haematology,mimiciv_hosp.labevents,51301,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,True
+mimiciv,platelet_mean,Platelets,10^9/L,Haematology,mimiciv_hosp.labevents,51265,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,True
+mimiciv,hemoglobin_mean,Haemoglobin,g/dL,Haematology,mimiciv_hosp.labevents,51222,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,hematocrit_mean,Haematocrit,%,Haematology,mimiciv_hosp.labevents,51221,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,rbc_mean,RBC,10^12/L,Haematology,mimiciv_hosp.labevents,51279,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,mcv_mean,MCV,fL,Haematology,mimiciv_hosp.labevents,51250,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,inr_mean,INR,ratio,Coagulation,mimiciv_hosp.labevents,51237,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,pt_mean,PT,s,Coagulation,mimiciv_hosp.labevents,51274,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,ptt_mean,aPTT,s,Coagulation,mimiciv_hosp.labevents,51275,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,sodium_mean,Sodium,mmol/L,Electrolytes,mimiciv_hosp.labevents,50983,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,potassium_mean,Potassium,mmol/L,Electrolytes,mimiciv_hosp.labevents,50971,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,chloride_mean,Chloride,mmol/L,Electrolytes,mimiciv_hosp.labevents,50902,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,bicarbonate_mean,Bicarbonate,mmol/L,Electrolytes,mimiciv_hosp.labevents,50882,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,aniongap_mean,Anion gap,mmol/L,Metabolic,mimiciv_hosp.labevents,50868,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,calcium_mean,Total calcium,mg/dL,Electrolytes,mimiciv_hosp.labevents,50893,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,magnesium_mean,Magnesium,mg/dL,Electrolytes,mimiciv_hosp.labevents,50960,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,phosphate_mean,Phosphate,mg/dL,Electrolytes,mimiciv_hosp.labevents,50970,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,glucose_mean,Glucose,mg/dL,Metabolic,mimiciv_hosp.labevents,50931,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,lactate_mean,Lactate,mmol/L,Metabolic,mimiciv_hosp.labevents,50813,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciv,heart_rate_mean,Heart rate,beats/min,Cardiovascular,mimiciv_derived.vitalsign,heart_rate,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciv,sbp_mean,SBP,mmHg,Cardiovascular,mimiciv_derived.vitalsign,sbp,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciv,dbp_mean,DBP,mmHg,Cardiovascular,mimiciv_derived.vitalsign,dbp,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciv,map_mean,MAP,mmHg,Cardiovascular,mimiciv_derived.vitalsign,mbp,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciv,resp_rate_mean,Respiratory rate,breaths/min,Respiratory,mimiciv_derived.vitalsign,resp_rate,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciv,temperature_mean,Temperature,degC,Metabolic,mimiciv_derived.vitalsign,temperature,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciv,spo2_mean,SpO2,%,Respiratory,mimiciv_derived.vitalsign,spo2,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciv,ph_mean,Arterial pH,pH,Respiratory,mimiciv_derived.bg,ph,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciv,pao2_mean,PaO2,mmHg,Respiratory,mimiciv_derived.bg,po2,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciv,paco2_mean,PaCO2,mmHg,Respiratory,mimiciv_derived.bg,pco2,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciv,pf_ratio_mean,PaO2/FiO2,mmHg,Respiratory,mimiciv_derived.bg,pao2fio2ratio,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciv,baseexcess_mean,Base excess,mmol/L,Metabolic,mimiciv_derived.bg,baseexcess,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciv,gcs_mean,GCS,points,Neurologic,mimiciv_derived.gcs,gcs,"[0,24) ICU hours",arithmetic mean of concept-derived GCS,False
+mimiciv,urine_hourly_mean,Urine output,mL/h,Renal,mimiciv_derived.urine_output,urineoutput,"[0,24) ICU hours",sum of documented non-negative outputs / 24 h; no records remains missing,False
+mimiciii,alt_mean,ALT,U/L,Hepatic,mimiciii.labevents,50861,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,ast_mean,AST,U/L,Hepatic,mimiciii.labevents,50878,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,alp_mean,ALP,U/L,Hepatic,mimiciii.labevents,50863,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,bilirubin_mean,Total bilirubin,mg/dL,Hepatic,mimiciii.labevents,50885,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,albumin_mean,Albumin,g/dL,Hepatic,mimiciii.labevents,50862,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,creatinine_mean,Creatinine,mg/dL,Renal,mimiciii.labevents,50912,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,True
+mimiciii,bun_mean,BUN,mg/dL,Renal,mimiciii.labevents,51006,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,ldh_mean,LDH,U/L,Index components,mimiciii.labevents,50954,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,True
+mimiciii,wbc_mean,WBC,10^9/L,Haematology,mimiciii.labevents,51301,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,True
+mimiciii,platelet_mean,Platelets,10^9/L,Haematology,mimiciii.labevents,51265,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,True
+mimiciii,hemoglobin_mean,Haemoglobin,g/dL,Haematology,mimiciii.labevents,51222,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,hematocrit_mean,Haematocrit,%,Haematology,mimiciii.labevents,51221,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,rbc_mean,RBC,10^12/L,Haematology,mimiciii.labevents,51279,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,mcv_mean,MCV,fL,Haematology,mimiciii.labevents,51250,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,inr_mean,INR,ratio,Coagulation,mimiciii.labevents,51237,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,pt_mean,PT,s,Coagulation,mimiciii.labevents,51274,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,ptt_mean,aPTT,s,Coagulation,mimiciii.labevents,51275,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,sodium_mean,Sodium,mmol/L,Electrolytes,mimiciii.labevents,50983,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,potassium_mean,Potassium,mmol/L,Electrolytes,mimiciii.labevents,50971,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,chloride_mean,Chloride,mmol/L,Electrolytes,mimiciii.labevents,50902,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,bicarbonate_mean,Bicarbonate,mmol/L,Electrolytes,mimiciii.labevents,50882,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,aniongap_mean,Anion gap,mmol/L,Metabolic,mimiciii.labevents,50868,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,calcium_mean,Total calcium,mg/dL,Electrolytes,mimiciii.labevents,50893,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,magnesium_mean,Magnesium,mg/dL,Electrolytes,mimiciii.labevents,50960,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,phosphate_mean,Phosphate,mg/dL,Electrolytes,mimiciii.labevents,50970,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,glucose_mean,Glucose,mg/dL,Metabolic,mimiciii.labevents,50931,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,lactate_mean,Lactate,mmol/L,Metabolic,mimiciii.labevents,50813,"[ICU admission, ICU admission +24 h)",arithmetic mean of available positive measurements; zero allowed for bilirubin and anion gap,False
+mimiciii,heart_rate_mean,Heart rate,beats/min,Cardiovascular,mimiciii.pivoted_vital,heartrate,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciii,sbp_mean,SBP,mmHg,Cardiovascular,mimiciii.pivoted_vital,sysbp,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciii,dbp_mean,DBP,mmHg,Cardiovascular,mimiciii.pivoted_vital,diasbp,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciii,map_mean,MAP,mmHg,Cardiovascular,mimiciii.pivoted_vital,meanbp,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciii,resp_rate_mean,Respiratory rate,breaths/min,Respiratory,mimiciii.pivoted_vital,resprate,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciii,temperature_mean,Temperature,degC,Metabolic,mimiciii.pivoted_vital,tempc,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciii,spo2_mean,SpO2,%,Respiratory,mimiciii.pivoted_vital,spo2,"[0,24) ICU hours",arithmetic mean of available concept-cleaned measurements,False
+mimiciii,ph_mean,Arterial pH,pH,Respiratory,mimiciii.pivoted_bg_art,ph,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciii,pao2_mean,PaO2,mmHg,Respiratory,mimiciii.pivoted_bg_art,po2,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciii,paco2_mean,PaCO2,mmHg,Respiratory,mimiciii.pivoted_bg_art,pco2,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciii,pf_ratio_mean,PaO2/FiO2,mmHg,Respiratory,mimiciii.pivoted_bg_art,pao2fio2ratio,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciii,baseexcess_mean,Base excess,mmol/L,Metabolic,mimiciii.pivoted_bg_art,baseexcess,"[0,24) ICU hours",arithmetic mean of arterial blood gas measurements,False
+mimiciii,gcs_mean,GCS,points,Neurologic,mimiciii.pivoted_gcs,gcs,"[0,24) ICU hours",arithmetic mean of concept-derived GCS,False
+mimiciii,urine_hourly_mean,Urine output,mL/h,Renal,mimiciii.pivoted_uo,urineoutput,"[0,24) ICU hours",sum of documented non-negative outputs / 24 h; no records remains missing,False

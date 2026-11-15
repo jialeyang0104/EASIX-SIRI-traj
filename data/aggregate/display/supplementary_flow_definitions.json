@@ -1,0 +1,64 @@
+{
+  "reference": {
+    "title": "Blood pressure response index trajectories identify distinct hemodynamic phenotypes and predict mortality in septic shock: a two-database retrospective cohort study",
+    "doi": "10.1186/s13054-026-06059-w",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13154610/",
+    "figures": [
+      5,
+      6
+    ]
+  },
+  "fixed_classes": true,
+  "classes": [
+    1,
+    2,
+    3
+  ],
+  "display_days": [
+    1,
+    3,
+    5,
+    7
+  ],
+  "disposition_definition": "Fixed class while alive and ICU-resident at each checkpoint; live ICU exit and exact ICU death are absorbing; uncertain date-only exit outcome remains unknown",
+  "treatment_scope": "Both complete assigned cohorts; first-day [0,24 h) treatment intensity; admission Day 28 all-cause death and complete index-ICU outcomes",
+  "cutpoint_selection": "Fixed study-defined clinical categories; no outcome-based optimisation",
+  "definitions": {
+    "treatment_intensity": {
+      "label": "First-day treatment intensity",
+      "levels": [
+        "Low",
+        "Medium",
+        "High",
+        "Max",
+        "Intensity unknown"
+      ],
+      "components": [
+        "Recorded invasive mechanical ventilation",
+        "Recorded CRRT",
+        "Maximum NEE",
+        "Net fluid balance"
+      ],
+      "hierarchy_order": [
+        "Max",
+        "High",
+        "Medium",
+        "Low"
+      ],
+      "hierarchy": {
+        "Max": "CRRT or invasive MV with maximum NEE >0.3 µg/kg/min",
+        "High": "Below Max: NEE >0.3 or invasive MV with 0<NEE≤0.3 µg/kg/min",
+        "Medium": "Below Max/High: invasive MV with NEE=0, isolated 0<NEE≤0.3, or high net fluid balance",
+        "Low": "No recorded MV/CRRT, NEE=0, and low net fluid balance"
+      },
+      "fluid_rule": "High if >30 mL/kg with valid 20–300 kg weight; if weight invalid/missing use >2,000 mL; low includes equality",
+      "unknown": "Only no recorded MV/CRRT/NEE with missing fluid documentation, preventing Low/Medium separation",
+      "selection": "User-confirmed organ-support-first descriptive hierarchy; identical in both databases; no outcome optimisation"
+    }
+  },
+  "zero_semantics": "Zero NEE/MV/CRRT denotes no recorded receipt. Intensity is unknown only with no recorded MV/CRRT/NEE and missing fluid documentation; organ support or positive NEE determines intensity despite missing fluid",
+  "flow_coloring": "Persistent source Class 1/2/3; downstream node fills identify exposure/outcome",
+  "node_percentages": "100 × node count / panel cohort_stays, rounded to one decimal; denominator fixed across all stages within each panel",
+  "models_refitted": false,
+  "patient_level_outputs": false
+}

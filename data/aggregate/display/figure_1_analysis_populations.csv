@@ -1,0 +1,17 @@
+dataset,population,n,source
+mimiciv,static_available_easix,14371,all_icu_flow_diagram_counts.csv
+mimiciv,static_available_siri,19084,all_icu_flow_diagram_counts.csv
+mimiciv,static_available_joint,7245,all_icu_flow_diagram_counts.csv
+mimiciv,static_model_easix,14340,all_icu_cox_static_effects.csv
+mimiciv,static_model_siri,19064,all_icu_cox_static_effects.csv
+mimiciv,static_model_joint,7230,all_icu_cox_static_effects.csv
+mimiciv,trajectory_assigned,2698,landmark_population_flow.csv
+mimiciv,trajectory_day7,1415,landmark_population_flow.csv
+mimiciii,static_available_easix,7097,all_icu_flow_diagram_counts.csv
+mimiciii,static_available_siri,7675,all_icu_flow_diagram_counts.csv
+mimiciii,static_available_joint,3208,all_icu_flow_diagram_counts.csv
+mimiciii,static_model_easix,7086,all_icu_cox_static_effects.csv
+mimiciii,static_model_siri,7669,all_icu_cox_static_effects.csv
+mimiciii,static_model_joint,3203,all_icu_cox_static_effects.csv
+mimiciii,trajectory_assigned,1327,landmark_population_flow.csv
+mimiciii,trajectory_day7,737,landmark_population_flow.csv

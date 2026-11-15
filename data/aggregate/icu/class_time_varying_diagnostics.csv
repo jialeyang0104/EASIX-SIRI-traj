@@ -1,0 +1,3 @@
+dataset,analysis,model,n,icu_deaths,chisq,df,p_value,class2_baseline_log_shr,class3_baseline_log_shr,class2_logtime_coefficient,class3_logtime_coefficient
+mimiciv,day7_landmark,Fine-Gray with both class-by-log(1+days since Day7) terms,1409,347,3.55010811609208,2,0.169474287802988,0.544965494263287,0.199558584927356,0.0659196171088491,0.27795664683594
+mimiciii,day7_landmark,Fine-Gray with both class-by-log(1+days since Day7) terms,737,189,7.03231439678722,2,0.0297133987543871,0.541569771252,-0.0546084253244977,-0.00703462036853606,0.463295159802757

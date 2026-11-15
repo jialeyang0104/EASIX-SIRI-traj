@@ -1,0 +1,5 @@
+dataset,index,day,statistic,p_value,p_value_bh,n,n_class1,n_class2,n_class3,stars,test,interpretation
+mimiciv,log2_easix_interp_z,1,1470.5696718234149,0.0,0.0,2196,792,794,610,***,Kruskal-Wallis (2 df),descriptive comparison of observed values conditional on fixed labels
+mimiciv,log2_siri_interp_z,1,103.92451343735644,2.710682424053199e-23,1.8974776968372394e-22,2145,797,787,561,***,Kruskal-Wallis (2 df),descriptive comparison of observed values conditional on fixed labels
+mimiciii,log2_easix_interp_z,1,707.3202263465694,2.5548439559497927e-154,1.7883907691648548e-153,1041,410,330,301,***,Kruskal-Wallis (2 df),descriptive comparison of observed values conditional on fixed labels
+mimiciii,log2_siri_interp_z,1,74.55931700764748,6.451341392888433e-17,4.515938975021903e-16,1005,405,340,260,***,Kruskal-Wallis (2 df),descriptive comparison of observed values conditional on fixed labels
