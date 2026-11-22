@@ -28,6 +28,7 @@ SYSTEM = {'Demography':'#8C939B','Severity':'#B697BF','Endothelial stress':'#D8A
 GRAY, LIGHT = '#68717A', '#E6E8EB'
 records=[]
 OUTPUT = HERE
+TREATMENT_SOURCE = S
 
 def read(name): return pd.read_csv(S/(name+'.csv'))
 def write(frame,name):
@@ -79,7 +80,7 @@ def text_geometry(fig):
         text_objects=len(texts),outside_canvas=outside,text_overlaps=overlaps)
 def save(fig,stem):
     geometry=None
-    if stem in {'figure_1_inclusion_exclusion_flow','figure_2_joint_trajectories','figure_3_class_treatment_outcomes','figure_4_class_clinical_profiles','figure_5_landmark_mortality_forest','figure_6_day7_landmark_survival','figure_7_day1_class_prediction','supp_figure_s2_day7_subgroups','supp_figure_s3_system_associations','supp_figure_s4_six_hour_management_profiles','supp_figure_s5_treatment_associations','supp_figure_s6_day1_management_profiles'}:
+    if stem in {'figure_1_inclusion_exclusion_flow','figure_2_joint_trajectories','figure_3_class_treatment_outcomes','figure_4_class_clinical_profiles','figure_5_landmark_mortality_forest','figure_6_day7_landmark_survival','figure_7_day1_class_prediction','supp_figure_s2_day7_subgroups','supp_figure_s3_system_associations','supp_figure_s4_six_hour_management_profiles','supp_figure_s5_treatment_associations','supp_figure_s6_day1_management_profiles','supp_figure_s7_treatment_probability'}:
         geometry=text_geometry(fig)
         assert not geometry['outside_canvas'] and not geometry['text_overlaps'],geometry
     if geometry is None:geometry=text_geometry(fig)
@@ -524,57 +525,29 @@ def management_profiles():
         source='figure_source_data/supp_management_profiles.csv')
 
 def treatment_forest():
-    estimates=read('supp_treatment_forest_estimates');tests=read('supp_treatment_interaction_tests')
-    width,height=180,220
-    fig=plt.figure(figsize=(width/25.4,height/25.4))
-    def text(x,y,label,**kwargs):
-        return fig.text(x/width,y/height,label,va='center',**kwargs)
-    markers={1:'o',2:'s',3:'^'}
-    labels=['Any NEE','NEE >0.3 vs 0<NEE≤0.3 µg/kg/min',
-        'Net balance >30 mL/kg','Mechanical ventilation','CRRT']
-    for row,db in enumerate(DB):
-        for column,horizon in enumerate(['28-day','ICU']):
-            left=3+90*column;top=214-110*row
-            text(left,top,chr(65+2*row+column),fontsize=10.5,fontweight='bold')
-            text(left+7,top,f'{DB[db]} · '+('ICU mortality' if horizon=='ICU' else '28-day mortality'),fontsize=9.5,fontweight='bold')
-            for order in range(5):
-                y=top-8-18*order
-                t=tests[tests.dataset.eq(db)&tests.horizon.eq(horizon)&tests.exposure_order.eq(order)].iloc[0]
-                text(left,y,labels[order],fontsize=8.5,fontweight='bold')
-                text(left+85,y,'P int '+('<0.001' if t.global_interaction_p<.001 else f'{t.global_interaction_p:.3f}'),
-                    fontsize=8.5,ha='right',color=GRAY)
-                ax=fig.add_axes([(left+13)/width,(y-11.7)/height,25/width,8.8/height])
-                for c in COLORS:
-                    r=estimates[estimates.dataset.eq(db)&estimates.horizon.eq(horizon)&estimates.exposure_order.eq(order)&estimates.trajectory_class.eq(c)].iloc[0]
-                    yy=3-c
-                    ax.text(-.08,yy,f'C{c}',ha='right',va='center',transform=ax.get_yaxis_transform(),color=COLORS[c],fontsize=8.5)
-                    if r.model_status=='not_estimable':
-                        ax.text(1.10,yy,'Not estimable',va='center',fontsize=8.5,color=GRAY,transform=ax.get_yaxis_transform())
-                        ax.text(72/25,yy,'—',ha='right',va='center',fontsize=8.5,transform=ax.get_yaxis_transform())
-                        continue
-                    lo,hi=max(.2,r.ci_low),min(6,r.ci_high)
-                    ax.plot([lo,hi],[yy,yy],color=COLORS[c],lw=1)
-                    ax.plot(np.clip(r.hazard_ratio,.2,6),yy,marker=markers[c],color=COLORS[c],ms=3.3,ls='none')
-                    if r.ci_low<.2:ax.plot(.2,yy,marker='<',color=COLORS[c],ms=3,clip_on=False)
-                    if r.ci_high>6:ax.plot(6,yy,marker='>',color=COLORS[c],ms=3,clip_on=False)
-                    p='<0.001' if r.p_value<.001 else f'{r.p_value:.3f}'
-                    ax.text(1.10,yy,f'{r.hazard_ratio:.2f} ({r.ci_low:.2f}–{r.ci_high:.2f})',
-                        va='center',fontsize=8.5,transform=ax.get_yaxis_transform())
-                    ax.text(72/25,yy,p,ha='right',va='center',fontsize=8.5,transform=ax.get_yaxis_transform())
-                logaxis(ax,[.2,1,6],(.2,6));ax.set(ylim=(-.35,2.35),yticks=[])
-                ax.xaxis.set_minor_locator(FixedLocator([]));ax.tick_params(axis='x',labelsize=8.0,pad=1,length=2)
-                if order<4:ax.tick_params(axis='x',labelbottom=False,length=0)
-                ax.spines['left'].set_visible(False)
-    text(90,1.5,'28-day mortality: HR · ICU mortality: sHR (95% CI); row P · P int: interaction P',ha='center',fontsize=8.5,color=GRAY)
-    save(fig,'supp_figure_s5_treatment_associations')
-    records[-1]['treatment_associations']=dict(estimates=len(estimates),estimated=int(estimates.model_status.eq('estimated').sum()),
-        not_estimable=int(estimates.model_status.eq('not_estimable').sum()),global_tests=len(tests),datasets=list(DB),
-        horizons=['28-day','ICU'],classes=[1,2,3],x_scale='log',x_limits=[.2,6],
-        effect_source='figure_source_data/supp_treatment_forest_estimates.csv',
-        interaction_source='figure_source_data/supp_treatment_interaction_tests.csv',
-        nominal_p_values=True,models_refitted=False,
-        exposures=tests.exposure.drop_duplicates().tolist(),encoding='clinical cutoff binary',
+    from treatment_figures import fixed_class_forest
+    save(fixed_class_forest(TREATMENT_SOURCE), 'supp_figure_s5_treatment_associations')
+    source = TREATMENT_SOURCE / 'figure_s6_fixed.csv'
+    estimates = pd.read_csv(source)
+    estimated = int(estimates.status.eq('estimated').sum())
+    records[-1]['treatment_associations'] = dict(
+        estimates=len(estimates), estimated=estimated, not_estimable=len(estimates)-estimated,
+        global_tests=len(estimates.groupby(['dataset','outcome','exposure'])),
+        datasets=list(DB), horizons=['28-day','ICU'], classes=[1,2,3],
+        x_scale='log', x_limits=[.2,6], effect_source=str(source.relative_to(P)),
+        interaction_source=str(source.relative_to(P)), nominal_p_values=True, models_refitted=False,
+        exposures=list(estimates.exposure.unique()), encoding='clinical cutoff binary',
         truncation='Arrowheads indicate intervals outside displayed limits; text reports untruncated estimates')
+
+
+def treatment_probability():
+    from treatment_figures import treatment_probability as build_figure
+    save(build_figure(TREATMENT_SOURCE), 'supp_figure_s7_treatment_probability')
+    records[-1]['treatment_probability'] = dict(
+        sources=[str((TREATMENT_SOURCE / f'figure_s7_four_treatment_{part}.csv').relative_to(P))
+                 for part in ('curves','tests','histograms')],
+        nominal_p_values=True, models_refitted=False)
+
 
 def exact_alluvial(ax,nodes,links,stages,stage_categories,styles,label_mode='all',bar_width=None,small_label_threshold=0):
     """Draw observed counts, preserving source-class subflows through every node."""
@@ -722,9 +695,14 @@ def treatment_flows():
     clinical_flows()
 
 def main():
-    global OUTPUT
-    choices={'flow':flow,'management':management,'trajectories':trajectories,'phenotypes':phenotypes,'forest':mortality_forest,'survival':km,'subgroups':subgroup,'prediction':classifier,'supporting':supporting,'management-profiles':management_profiles,'treatment':treatment_forest,'clinical-flows':clinical_flows,'treatment-flows':clinical_flows,'disposition':clinical_flows}
-    parser=argparse.ArgumentParser();parser.add_argument('--figure',choices=['all',*choices],default='all');args=parser.parse_args()
+    global OUTPUT, TREATMENT_SOURCE
+    choices={'flow':flow,'management':management,'trajectories':trajectories,'phenotypes':phenotypes,'forest':mortality_forest,'survival':km,'subgroups':subgroup,'prediction':classifier,'supporting':supporting,'management-profiles':management_profiles,'treatment':treatment_forest,'treatment-probability':treatment_probability,'clinical-flows':clinical_flows,'treatment-flows':clinical_flows,'disposition':clinical_flows}
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--figure', choices=['all', *choices], default='all')
+    parser.add_argument('--treatment-source', choices=['released', 'refit'], default='released',
+                        help='Use released S6/S7 aggregates or local outputs from fit_associations.R')
+    args = parser.parse_args()
+    TREATMENT_SOURCE = W / 'treatment/aggregate' if args.treatment_source == 'refit' else S
     with tempfile.TemporaryDirectory(prefix='critical-care-figures-') as temp:
         OUTPUT=Path(temp)
         if args.figure=='all':

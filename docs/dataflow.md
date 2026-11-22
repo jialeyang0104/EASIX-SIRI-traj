@@ -1,6 +1,6 @@
 # Ordered dataflow audit
 
-The README sequence supplies every consumed private cache:
+The README sequence lists the producers of the controlled input caches:
 
 | Producer | Private products | Consumers |
 |---|---|---|
@@ -12,10 +12,12 @@ The README sequence supplies every consumed private cache:
 | `05_58_v5_landmark.R` and `check_results.py` | Scale and landmark aggregate contracts | ICU preparation, cohort displays |
 | `extract_supplementary_treatments.py` | Current assigned Day-1 treatments and III six-hour source | treatment models, ICU preparation |
 | `icu/prepare_analysis.py` | ICU endpoint analysis table | Fine–Gray, CIF, clinical flow preparation |
-| `train_day1_classifier.py` | Trained classifier, individual probabilities, internal/external SHAP arrays | Figure 7 (internal SHAP only) |
+| `train_day1_classifier.py` | Trained classifier, patient split, validation probabilities and internal/external SHAP arrays | Figure 7 (internal SHAP only); `prepare_day1_probabilities.py` |
+| `prepare_day1_probabilities.py` | Out-of-fold or held-out Day-1 probabilities in `src/treatment/data_private/` | `src/treatment/fit_associations.R` |
+| `src/treatment/fit_associations.R` | ID-free current S6/S7 model and plot tables in `src/treatment/aggregate/` | `render_figures.py --treatment-source refit` |
 | `extract_interval_profiles.py` | IV same-interval patient profiles | parent/six-hour management preparation |
 | `prepare_management_inputs.py` | Current parent treatments and both current six-hour tables | clinical display preparation |
 
 Display metadata (`display_variables.csv` and related label/system definitions) is distributed in `data/aggregate/display/`. Preparation overwrites parent/class baseline rows and availability directly from the current caches; it no longer appends clinical rows or availability entries from an older result. `phenotypes()` creates `subtype_radar.csv` before `system_radar()` reads it. `prepare_display_data.py` produces display source tables before flow/outcome binding. The final refresh copies model CSVs and the classifier manifest to released display paths; rendering then uses the refreshed aggregates plus locally generated internal SHAP.
 
-The released aggregates support display-only use without executing the private-data sequence. No licensed-data model run was performed during this dataflow audit.
+The released aggregates support display-only use without executing the private-data sequence. The current treatment refit was checked against the original controlled classifier and ICU endpoint caches; it did not require a fresh database extraction.
