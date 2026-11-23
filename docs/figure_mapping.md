@@ -5,8 +5,8 @@ The renderer retains stable analysis-era filenames. Use this map for the finaliz
 | Final label | Content | Renderer selection | Output stem in `results/figures/` |
 |---|---|---|---|
 | Figure 1 | Cohort selection | flow | `figure_1_inclusion_exclusion_flow` |
-| Figure 2 | Static/class mortality forest | forest | `figure_5_landmark_mortality_forest` |
-| Figure 3 | Joint trajectories | trajectories | `figure_2_joint_trajectories` |
+| Figure 2 | Joint trajectories | trajectories | `figure_2_joint_trajectories` |
+| Figure 3 | Static/class mortality forest | forest | `figure_5_landmark_mortality_forest` |
 | Figure 4 | KM and ICU-death CIF | survival | `figure_6_day7_landmark_survival` |
 | Figure 5 | Multisystem phenotypes | phenotypes | `figure_4_class_clinical_profiles` |
 | Figure 6 | Clinical flows | clinical-flows | `figure_3_class_treatment_outcomes` |
